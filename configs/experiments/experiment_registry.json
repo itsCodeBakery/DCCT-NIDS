@@ -24,11 +24,17 @@
       "name": "Exact full-row deduplication",
       "status": "completed",
       "manifest": "outputs/manifests/block_04_exact_deduplication_manifest.json"
+    },
+    {
+      "block": "05",
+      "name": "Leakage-safe feature policy and label harmonization",
+      "status": "completed",
+      "manifest": "outputs/manifests/block_05_feature_label_policy_manifest.json"
     }
   ],
   "next_block": {
-    "block": "05",
-    "name": "Leakage-safe feature policy and label harmonization",
+    "block": "06",
+    "name": "Chronological split design and open-set fold generation",
     "status": "pending"
   },
   "primary_metrics": [
@@ -47,5 +53,5 @@
     31415,
     271828
   ],
-  "last_updated_utc": "2026-07-10T06:12:14.755349+00:00"
+  "last_updated_utc": "2026-07-10T06:17:32.259149+00:00"
 }

@@ -1,0 +1,49 @@
+{
+  "block": "05",
+  "status": "completed",
+  "created_at_utc": "2026-07-10T06:17:32.257135+00:00",
+  "dataset_path": "/kaggle/working/DCCT-NIDS/data/processed/cse_cic_ids2018_deduplicated.parquet",
+  "dataset_sha256": "1a4e07447a721dc6a5d148b98fdf2565076407cb9ebbb51d311162092bc5335b",
+  "row_count": 6319955,
+  "canonical_column_count": 78,
+  "label_spaces": {
+    "binary_class_count": 2,
+    "attack_family_class_count": 6,
+    "fine_grained_class_count": 15
+  },
+  "feature_policy": {
+    "hard_exclusion_count": 9,
+    "review_exclusion_count": 2,
+    "candidate_feature_count": 69,
+    "primary_feature_count": 67,
+    "hard_exclusion_columns": [
+      "Bwd Avg Bulk Rate",
+      "Bwd Avg Bytes/Bulk",
+      "Bwd Avg Packets/Bulk",
+      "Bwd PSH Flags",
+      "Bwd URG Flags",
+      "Fwd Avg Bulk Rate",
+      "Fwd Avg Bytes/Bulk",
+      "Fwd Avg Packets/Bulk",
+      "Label"
+    ],
+    "review_exclusion_columns": [
+      "CWE Flag Count",
+      "Fwd URG Flags"
+    ]
+  },
+  "artifacts": {
+    "label_mapping_table": "outputs/tables/table_05_01_label_harmonization.csv",
+    "binary_distribution_table": "outputs/tables/table_05_02_binary_label_distribution.csv",
+    "family_distribution_table": "outputs/tables/table_05_03_attack_family_distribution.csv",
+    "feature_policy_table": "outputs/tables/table_05_04_feature_policy.csv",
+    "label_configuration": "configs/datasets/cse_cic_ids2018_label_mapping.json",
+    "feature_configuration": "configs/datasets/cse_cic_ids2018_feature_policy.json",
+    "methodology_note": "reports/experiment_notes/block_05_feature_and_label_policy.md",
+    "figures": [
+      "outputs/figures/figure_05_01_attack_family_distribution.png",
+      "outputs/figures/figure_05_02_feature_policy_composition.png",
+      "outputs/figures/figure_05_03_evaluation_label_spaces.png"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Figure 5.1. Distribution of harmonized traffic families after exact duplicate removal. The logarithmic horizontal axis preserves the visibility of minority families. Bold labels report exact flow counts and dataset percentages. The resulting family-level label space will support chronological multiclass and leave-one-family-out open-set evaluation.

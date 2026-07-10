@@ -1,0 +1,79 @@
+column_name,policy,reason,is_primary_feature,is_candidate_feature,has_null_values,has_infinite_values,is_constant,is_near_constant
+Protocol,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Flow Duration,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Total Fwd Packets,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Total Backward Packets,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Fwd Packets Length Total,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Bwd Packets Length Total,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Fwd Packet Length Max,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Fwd Packet Length Min,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Fwd Packet Length Mean,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Fwd Packet Length Std,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Bwd Packet Length Max,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Bwd Packet Length Min,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Bwd Packet Length Mean,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Bwd Packet Length Std,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Flow Bytes/s,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Flow Packets/s,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Flow IAT Mean,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Flow IAT Std,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Flow IAT Max,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Flow IAT Min,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Fwd IAT Total,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Fwd IAT Mean,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Fwd IAT Std,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Fwd IAT Max,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Fwd IAT Min,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Bwd IAT Total,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Bwd IAT Mean,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Bwd IAT Std,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Bwd IAT Max,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Bwd IAT Min,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Fwd PSH Flags,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Bwd PSH Flags,exclude_constant,No discriminative variance in the audited dataset.,False,False,False,False,True,True
+Fwd URG Flags,exclude_primary_near_constant,Near-constant feature excluded from primary protocol; may be assessed in sensitivity analysis.,False,True,False,False,False,True
+Bwd URG Flags,exclude_constant,No discriminative variance in the audited dataset.,False,False,False,False,True,True
+Fwd Header Length,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Bwd Header Length,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Fwd Packets/s,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Bwd Packets/s,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Packet Length Min,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Packet Length Max,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Packet Length Mean,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Packet Length Std,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Packet Length Variance,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+FIN Flag Count,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+SYN Flag Count,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+RST Flag Count,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+PSH Flag Count,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+ACK Flag Count,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+URG Flag Count,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+CWE Flag Count,exclude_primary_near_constant,Near-constant feature excluded from primary protocol; may be assessed in sensitivity analysis.,False,True,False,False,False,True
+ECE Flag Count,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Down/Up Ratio,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Avg Packet Size,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Avg Fwd Segment Size,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Avg Bwd Segment Size,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Fwd Avg Bytes/Bulk,exclude_constant,No discriminative variance in the audited dataset.,False,False,False,False,True,True
+Fwd Avg Packets/Bulk,exclude_constant,No discriminative variance in the audited dataset.,False,False,False,False,True,True
+Fwd Avg Bulk Rate,exclude_constant,No discriminative variance in the audited dataset.,False,False,False,False,True,True
+Bwd Avg Bytes/Bulk,exclude_constant,No discriminative variance in the audited dataset.,False,False,False,False,True,True
+Bwd Avg Packets/Bulk,exclude_constant,No discriminative variance in the audited dataset.,False,False,False,False,True,True
+Bwd Avg Bulk Rate,exclude_constant,No discriminative variance in the audited dataset.,False,False,False,False,True,True
+Subflow Fwd Packets,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Subflow Fwd Bytes,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Subflow Bwd Packets,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Subflow Bwd Bytes,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Init Fwd Win Bytes,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Init Bwd Win Bytes,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Fwd Act Data Packets,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Fwd Seg Size Min,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Active Mean,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Active Std,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Active Max,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Active Min,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Idle Mean,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Idle Std,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Idle Max,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Idle Min,include_primary,Leakage-safe candidate feature retained in primary protocol.,True,True,False,False,False,False
+Label,target_only,Target label; prohibited from model input.,False,False,False,False,False,False

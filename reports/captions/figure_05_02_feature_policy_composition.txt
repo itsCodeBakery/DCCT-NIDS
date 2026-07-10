@@ -1,0 +1,1 @@
+Figure 5.2. Composition of the leakage-safe feature policy applied to the 78 canonical dataset columns. Bold labels show the exact number of columns assigned to each policy. Target, identifier, constant, and primary near-constant fields are separated from the primary modelling feature set.

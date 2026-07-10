@@ -1,0 +1,98 @@
+{
+  "dataset": "CSE-CIC-IDS2018",
+  "created_at_utc": "2026-07-10T06:17:26.068929+00:00",
+  "source_label_column": "Label",
+  "label_spaces": {
+    "binary": {
+      "classes": [
+        "Benign",
+        "Attack"
+      ],
+      "mapping": {
+        "Benign": "Benign",
+        "DDoS attacks-LOIC-HTTP": "Attack",
+        "DDOS attack-HOIC": "Attack",
+        "DoS attacks-Hulk": "Attack",
+        "Bot": "Attack",
+        "Infilteration": "Attack",
+        "SSH-Bruteforce": "Attack",
+        "DoS attacks-GoldenEye": "Attack",
+        "DoS attacks-Slowloris": "Attack",
+        "DDOS attack-LOIC-UDP": "Attack",
+        "Brute Force -Web": "Attack",
+        "Brute Force -XSS": "Attack",
+        "SQL Injection": "Attack",
+        "DoS attacks-SlowHTTPTest": "Attack",
+        "FTP-BruteForce": "Attack"
+      }
+    },
+    "attack_family": {
+      "classes": [
+        "Benign",
+        "DDoS",
+        "Other Attack",
+        "Botnet",
+        "Brute Force",
+        "Web Attack"
+      ],
+      "mapping": {
+        "Benign": "Benign",
+        "DDoS attacks-LOIC-HTTP": "DDoS",
+        "DDOS attack-HOIC": "DDoS",
+        "DoS attacks-Hulk": "Other Attack",
+        "Bot": "Botnet",
+        "Infilteration": "Other Attack",
+        "SSH-Bruteforce": "Brute Force",
+        "DoS attacks-GoldenEye": "Other Attack",
+        "DoS attacks-Slowloris": "Other Attack",
+        "DDOS attack-LOIC-UDP": "DDoS",
+        "Brute Force -Web": "Brute Force",
+        "Brute Force -XSS": "Brute Force",
+        "SQL Injection": "Web Attack",
+        "DoS attacks-SlowHTTPTest": "Other Attack",
+        "FTP-BruteForce": "Brute Force"
+      }
+    },
+    "fine_grained": {
+      "classes": [
+        "Benign",
+        "DDoS attacks-LOIC-HTTP",
+        "DDOS attack-HOIC",
+        "DoS attacks-Hulk",
+        "Bot",
+        "Infilteration",
+        "SSH-Bruteforce",
+        "DoS attacks-GoldenEye",
+        "DoS attacks-Slowloris",
+        "DDOS attack-LOIC-UDP",
+        "Brute Force -Web",
+        "Brute Force -XSS",
+        "SQL Injection",
+        "DoS attacks-SlowHTTPTest",
+        "FTP-BruteForce"
+      ],
+      "mapping": {
+        "Benign": "Benign",
+        "DDoS attacks-LOIC-HTTP": "DDoS attacks-LOIC-HTTP",
+        "DDOS attack-HOIC": "DDOS attack-HOIC",
+        "DoS attacks-Hulk": "DoS attacks-Hulk",
+        "Bot": "Bot",
+        "Infilteration": "Infilteration",
+        "SSH-Bruteforce": "SSH-Bruteforce",
+        "DoS attacks-GoldenEye": "DoS attacks-GoldenEye",
+        "DoS attacks-Slowloris": "DoS attacks-Slowloris",
+        "DDOS attack-LOIC-UDP": "DDOS attack-LOIC-UDP",
+        "Brute Force -Web": "Brute Force -Web",
+        "Brute Force -XSS": "Brute Force -XSS",
+        "SQL Injection": "SQL Injection",
+        "DoS attacks-SlowHTTPTest": "DoS attacks-SlowHTTPTest",
+        "FTP-BruteForce": "FTP-BruteForce"
+      }
+    }
+  },
+  "open_set_policy": {
+    "unknown_label_name": "Unknown",
+    "training_rule": "Held-out attack families must be completely absent from training and validation.",
+    "evaluation_rule": "Held-out fine-grained labels are mapped to Unknown only at test time."
+  }
+}
