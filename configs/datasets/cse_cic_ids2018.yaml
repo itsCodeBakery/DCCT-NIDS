@@ -1,0 +1,30 @@
+dataset:
+  name: CSE-CIC-IDS2018
+  kaggle_path: /kaggle/input/datasets/dhoogla/csecicids2018
+  recursive_glob: "**/*.csv"
+  label_candidates:
+    - Label
+    - label
+  raw_data_committed: false
+
+audit:
+  chunk_size: 200000
+  checksum_algorithm: sha256
+  inspect_missing: true
+  inspect_infinite: true
+  inspect_duplicates: true
+  inspect_constant_features: true
+  save_file_manifest: true
+
+outputs:
+  root: outputs
+  manifests: outputs/manifests
+  tables: outputs/tables
+  figures: outputs/figures
+  logs: outputs/logs
+
+figures:
+  dpi: 600
+  formats: [png, pdf, svg]
+  bold_titles: true
+  bold_data_labels: true
