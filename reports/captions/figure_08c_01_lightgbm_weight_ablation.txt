@@ -1,0 +1,1 @@
+Figure 8C.1. Internal MCC and exact benign false-positive rate for stable LightGBM variants under the one-percent operational threshold policy.
