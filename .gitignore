@@ -277,3 +277,6 @@ data/interim/
 *.parquet
 *.duckdb
 *.duckdb.wal
+
+# DCCT-NIDS model-ready datasets
+data/model_ready/

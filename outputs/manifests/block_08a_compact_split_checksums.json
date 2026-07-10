@@ -1,0 +1,27 @@
+{
+  "created_at_utc": "2026-07-10T07:25:52.349974+00:00",
+  "feature_set": "compact",
+  "files": [
+    {
+      "split": "train",
+      "relative_path": "data/model_ready/compact/train_compact.parquet",
+      "sha256": "c082d7c24b657b8684589afbf03ee2b2e032689a67996c02136ae865b6337d78",
+      "size_bytes": 232652214,
+      "row_count": 4202411
+    },
+    {
+      "split": "validation",
+      "relative_path": "data/model_ready/compact/validation_compact.parquet",
+      "sha256": "167bd7a44a116b0c8726ba1c6c108dbb06b1eeae45d22383644aeeea43c7e900",
+      "size_bytes": 71846370,
+      "row_count": 1145711
+    },
+    {
+      "split": "test",
+      "relative_path": "data/model_ready/compact/test_compact.parquet",
+      "sha256": "6b6d976b53cea8e247b3296f689d96df766d09d867b2523be7e3a8bd8a43c5f7",
+      "size_bytes": 56720387,
+      "row_count": 971833
+    }
+  ]
+}

@@ -48,11 +48,17 @@
       "name": "Training-only official feature spaces",
       "status": "completed",
       "manifest": "outputs/manifests/block_07_official_feature_spaces_manifest.json"
+    },
+    {
+      "block": "08A",
+      "name": "GPU audit and Compact model-ready strict split materialization",
+      "status": "completed",
+      "manifest": "outputs/manifests/block_08a_compact_materialization_manifest.json"
     }
   ],
   "next_block": {
-    "block": "08",
-    "name": "Materialize model-ready train, validation, and test arrays with fold-safe preprocessing",
+    "block": "08B",
+    "name": "GPU-accelerated Compact baseline models",
     "status": "pending"
   },
   "primary_metrics": [
@@ -71,5 +77,5 @@
     31415,
     271828
   ],
-  "last_updated_utc": "2026-07-10T07:17:21.349515+00:00"
+  "last_updated_utc": "2026-07-10T07:25:52.355441+00:00"
 }

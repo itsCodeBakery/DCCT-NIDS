@@ -1,0 +1,22 @@
+split,attack_family,fine_grained_label,row_count
+train,Benign,Benign,3135491
+train,DDoS,DDoS attacks-LOIC-HTTP,575364
+train,DDoS,DDOS attack-HOIC,198861
+train,DoS,DoS attacks-Hulk,145199
+train,Brute Force,SSH-Bruteforce,94048
+train,DoS,DoS attacks-GoldenEye,41406
+train,DoS,DoS attacks-Slowloris,9863
+train,DDoS,DDOS attack-LOIC-UDP,1730
+train,Brute Force,Brute Force -Web,228
+train,Brute Force,Brute Force -XSS,79
+train,DoS,DoS attacks-SlowHTTPTest,55
+train,Brute Force,FTP-BruteForce,53
+train,Web Attack,SQL Injection,34
+validation,Benign,Benign,1088738
+validation,Infiltration,Infilteration,56449
+validation,Brute Force,Brute Force -Web,325
+validation,Brute Force,Brute Force -XSS,149
+validation,Web Attack,SQL Injection,50
+test,Benign,Benign,769928
+test,Botnet,Bot,144535
+test,Infiltration,Infilteration,57370

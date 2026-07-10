@@ -1,0 +1,4 @@
+split,rows,columns,row_groups,file_size_mb,invalid_feature_cells,missing_label_rows
+train,4202411,39,42,221.8744411468506,0,0
+validation,1145711,39,12,68.51803779602051,0,0
+test,971833,39,10,54.09277629852295,0,0
