@@ -1,0 +1,98 @@
+{
+  "dataset": "CSE-CIC-IDS2018",
+  "version": "1.0.0",
+  "created_at_utc": "2026-07-10T06:27:15.050060+00:00",
+  "source_label_column": "Label",
+  "unknown_label": "Unknown",
+  "taxonomy": {
+    "Benign": {
+      "attack_family": "Benign",
+      "binary_label": "Benign",
+      "is_attack": false
+    },
+    "Bot": {
+      "attack_family": "Botnet",
+      "binary_label": "Attack",
+      "is_attack": true
+    },
+    "FTP-BruteForce": {
+      "attack_family": "Brute Force",
+      "binary_label": "Attack",
+      "is_attack": true
+    },
+    "SSH-Bruteforce": {
+      "attack_family": "Brute Force",
+      "binary_label": "Attack",
+      "is_attack": true
+    },
+    "Brute Force -Web": {
+      "attack_family": "Brute Force",
+      "binary_label": "Attack",
+      "is_attack": true
+    },
+    "Brute Force -XSS": {
+      "attack_family": "Brute Force",
+      "binary_label": "Attack",
+      "is_attack": true
+    },
+    "SQL Injection": {
+      "attack_family": "Web Attack",
+      "binary_label": "Attack",
+      "is_attack": true
+    },
+    "DoS attacks-Hulk": {
+      "attack_family": "DoS",
+      "binary_label": "Attack",
+      "is_attack": true
+    },
+    "DoS attacks-GoldenEye": {
+      "attack_family": "DoS",
+      "binary_label": "Attack",
+      "is_attack": true
+    },
+    "DoS attacks-Slowloris": {
+      "attack_family": "DoS",
+      "binary_label": "Attack",
+      "is_attack": true
+    },
+    "DoS attacks-SlowHTTPTest": {
+      "attack_family": "DoS",
+      "binary_label": "Attack",
+      "is_attack": true
+    },
+    "DDoS attacks-LOIC-HTTP": {
+      "attack_family": "DDoS",
+      "binary_label": "Attack",
+      "is_attack": true
+    },
+    "DDOS attack-HOIC": {
+      "attack_family": "DDoS",
+      "binary_label": "Attack",
+      "is_attack": true
+    },
+    "DDOS attack-LOIC-UDP": {
+      "attack_family": "DDoS",
+      "binary_label": "Attack",
+      "is_attack": true
+    },
+    "Infilteration": {
+      "attack_family": "Infiltration",
+      "binary_label": "Attack",
+      "is_attack": true
+    }
+  },
+  "attack_families": [
+    "Benign",
+    "Botnet",
+    "Brute Force",
+    "DDoS",
+    "DoS",
+    "Infiltration",
+    "Web Attack"
+  ],
+  "notes": {
+    "infilteration_spelling": "The original dataset label uses the misspelling 'Infilteration'; it is normalized to the family 'Infiltration'.",
+    "dos_labels": "All labels beginning with 'DoS attacks-' are mapped to the DoS family.",
+    "ddos_labels": "LOIC-HTTP, LOIC-UDP, and HOIC labels are mapped to the DDoS family."
+  }
+}

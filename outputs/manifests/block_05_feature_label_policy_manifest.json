@@ -1,6 +1,6 @@
 {
   "block": "05",
-  "status": "completed",
+  "status": "completed_corrected",
   "created_at_utc": "2026-07-10T06:17:32.257135+00:00",
   "dataset_path": "/kaggle/working/DCCT-NIDS/data/processed/cse_cic_ids2018_deduplicated.parquet",
   "dataset_sha256": "1a4e07447a721dc6a5d148b98fdf2565076407cb9ebbb51d311162092bc5335b",
@@ -8,7 +8,7 @@
   "canonical_column_count": 78,
   "label_spaces": {
     "binary_class_count": 2,
-    "attack_family_class_count": 6,
+    "attack_family_class_count": 7,
     "fine_grained_class_count": 15
   },
   "feature_policy": {
@@ -44,6 +44,17 @@
       "outputs/figures/figure_05_01_attack_family_distribution.png",
       "outputs/figures/figure_05_02_feature_policy_composition.png",
       "outputs/figures/figure_05_03_evaluation_label_spaces.png"
-    ]
+    ],
+    "attack_taxonomy": "configs/datasets/cse_cic_ids2018_attack_taxonomy.json",
+    "taxonomy_correction_report": "reports/experiment_notes/block_05a_taxonomy_correction.md"
+  },
+  "corrected_at_utc": "2026-07-10T06:27:19.603207+00:00",
+  "correction_block": "05A",
+  "taxonomy_version": "1.0.0",
+  "taxonomy_validation": {
+    "observed_label_count": 15,
+    "mapped_label_count": 15,
+    "unmapped_label_count": 0,
+    "other_attack_count": 0
   }
 }

@@ -1,9 +1,12 @@
 {
   "dataset": "CSE-CIC-IDS2018",
-  "created_at_utc": "2026-07-10T06:17:26.068929+00:00",
+  "version": "1.0.0",
+  "created_at_utc": "2026-07-10T06:27:15.086887+00:00",
   "source_label_column": "Label",
+  "taxonomy_path": "configs/datasets/cse_cic_ids2018_attack_taxonomy.json",
   "label_spaces": {
     "binary": {
+      "class_count": 2,
       "classes": [
         "Benign",
         "Attack"
@@ -27,33 +30,36 @@
       }
     },
     "attack_family": {
+      "class_count": 7,
       "classes": [
         "Benign",
-        "DDoS",
-        "Other Attack",
         "Botnet",
         "Brute Force",
+        "DDoS",
+        "DoS",
+        "Infiltration",
         "Web Attack"
       ],
       "mapping": {
         "Benign": "Benign",
         "DDoS attacks-LOIC-HTTP": "DDoS",
         "DDOS attack-HOIC": "DDoS",
-        "DoS attacks-Hulk": "Other Attack",
+        "DoS attacks-Hulk": "DoS",
         "Bot": "Botnet",
-        "Infilteration": "Other Attack",
+        "Infilteration": "Infiltration",
         "SSH-Bruteforce": "Brute Force",
-        "DoS attacks-GoldenEye": "Other Attack",
-        "DoS attacks-Slowloris": "Other Attack",
+        "DoS attacks-GoldenEye": "DoS",
+        "DoS attacks-Slowloris": "DoS",
         "DDOS attack-LOIC-UDP": "DDoS",
         "Brute Force -Web": "Brute Force",
         "Brute Force -XSS": "Brute Force",
         "SQL Injection": "Web Attack",
-        "DoS attacks-SlowHTTPTest": "Other Attack",
+        "DoS attacks-SlowHTTPTest": "DoS",
         "FTP-BruteForce": "Brute Force"
       }
     },
     "fine_grained": {
+      "class_count": 15,
       "classes": [
         "Benign",
         "DDoS attacks-LOIC-HTTP",
@@ -92,7 +98,9 @@
   },
   "open_set_policy": {
     "unknown_label_name": "Unknown",
-    "training_rule": "Held-out attack families must be completely absent from training and validation.",
-    "evaluation_rule": "Held-out fine-grained labels are mapped to Unknown only at test time."
+    "primary_holdout_unit": "attack_family",
+    "training_rule": "A held-out attack family must be completely absent from training and validation labels.",
+    "evaluation_rule": "All fine-grained labels belonging to a held-out family are mapped to Unknown only during testing.",
+    "benign_policy": "Benign is never treated as an unknown attack family."
   }
 }

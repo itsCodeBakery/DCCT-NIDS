@@ -1,0 +1,38 @@
+{
+  "block": "05A",
+  "status": "completed",
+  "created_at_utc": "2026-07-10T06:27:19.603896+00:00",
+  "purpose": "Correct and centralize the CSE-CIC-IDS2018 attack-family taxonomy.",
+  "processed_rows": 6319955,
+  "fine_grained_class_count": 15,
+  "attack_family_class_count": 7,
+  "binary_class_count": 2,
+  "unmapped_label_count": 0,
+  "other_attack_count": 0,
+  "corrected_labels": {
+    "DoS attacks-Hulk": "DoS",
+    "DoS attacks-GoldenEye": "DoS",
+    "DoS attacks-Slowloris": "DoS",
+    "DoS attacks-SlowHTTPTest": "DoS",
+    "Infilteration": "Infiltration"
+  },
+  "family_counts": {
+    "Benign": 4994157,
+    "DDoS": 775955,
+    "DoS": 196523,
+    "Botnet": 144535,
+    "Infiltration": 113819,
+    "Brute Force": 94882,
+    "Web Attack": 84
+  },
+  "artifacts": {
+    "taxonomy": "configs/datasets/cse_cic_ids2018_attack_taxonomy.json",
+    "label_mapping": "outputs/tables/table_05_01_label_harmonization.csv",
+    "binary_distribution": "outputs/tables/table_05_02_binary_label_distribution.csv",
+    "family_distribution": "outputs/tables/table_05_03_attack_family_distribution.csv",
+    "label_configuration": "configs/datasets/cse_cic_ids2018_label_mapping.json",
+    "correction_report": "reports/experiment_notes/block_05a_taxonomy_correction.md",
+    "figure_family_distribution": "outputs/figures/figure_05_01_attack_family_distribution.png",
+    "figure_label_spaces": "outputs/figures/figure_05_03_evaluation_label_spaces.png"
+  }
+}

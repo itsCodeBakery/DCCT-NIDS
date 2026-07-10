@@ -1,1 +1,1 @@
-Figure 5.3. Number of classes in the three evaluation label spaces. Binary experiments measure attack detection, family-level experiments evaluate operational attack categorization and open-set recognition, and fine-grained experiments assess detailed minority-class discrimination.
+Figure 5.3. Corrected numbers of classes in the three evaluation label spaces: two binary classes, seven traffic families, and fifteen fine-grained labels. Family-level experiments will form the principal closed-set and open-set evaluation protocol.

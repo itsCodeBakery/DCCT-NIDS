@@ -2,15 +2,15 @@ label,fine_grained_label,attack_family,binary_label,is_attack,count,percentage
 Benign,Benign,Benign,Benign,False,4994157,79.02203417587626
 DDoS attacks-LOIC-HTTP,DDoS attacks-LOIC-HTTP,DDoS,Attack,True,575364,9.103925581748603
 DDOS attack-HOIC,DDOS attack-HOIC,DDoS,Attack,True,198861,3.146557214410546
-DoS attacks-Hulk,DoS attacks-Hulk,Other Attack,Attack,True,145199,2.297468890205705
+DoS attacks-Hulk,DoS attacks-Hulk,DoS,Attack,True,145199,2.297468890205705
 Bot,Bot,Botnet,Attack,True,144535,2.286962486283526
-Infilteration,Infilteration,Other Attack,Attack,True,113819,1.8009463674978698
+Infilteration,Infilteration,Infiltration,Attack,True,113819,1.8009463674978698
 SSH-Bruteforce,SSH-Bruteforce,Brute Force,Attack,True,94048,1.4881118615559763
-DoS attacks-GoldenEye,DoS attacks-GoldenEye,Other Attack,Attack,True,41406,0.6551628927737618
-DoS attacks-Slowloris,DoS attacks-Slowloris,Other Attack,Attack,True,9863,0.1560612377778006
+DoS attacks-GoldenEye,DoS attacks-GoldenEye,DoS,Attack,True,41406,0.6551628927737618
+DoS attacks-Slowloris,DoS attacks-Slowloris,DoS,Attack,True,9863,0.1560612377778006
 DDOS attack-LOIC-UDP,DDOS attack-LOIC-UDP,DDoS,Attack,True,1730,0.0273736126285709
 Brute Force -Web,Brute Force -Web,Brute Force,Attack,True,553,0.0087500623026588
 Brute Force -XSS,Brute Force -XSS,Brute Force,Attack,True,228,0.003607620623881
 SQL Injection,SQL Injection,Web Attack,Attack,True,84,0.0013291233877456
-DoS attacks-SlowHTTPTest,DoS attacks-SlowHTTPTest,Other Attack,Attack,True,55,0.0008702593610239
+DoS attacks-SlowHTTPTest,DoS attacks-SlowHTTPTest,DoS,Attack,True,55,0.0008702593610239
 FTP-BruteForce,FTP-BruteForce,Brute Force,Attack,True,53,0.0008386135660776
