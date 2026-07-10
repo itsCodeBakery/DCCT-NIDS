@@ -1,0 +1,39 @@
+{
+  "dataset": "CSE-CIC-IDS2018",
+  "protocol_name": "strict_chronological_distribution_shift",
+  "version": "1.0.0",
+  "created_at_utc": "2026-07-10T06:36:38.108810+00:00",
+  "unit": "capture_file",
+  "file_assignments": {
+    "1": "train",
+    "2": "train",
+    "3": "train",
+    "4": "train",
+    "5": "train",
+    "6": "train",
+    "7": "validation",
+    "8": "validation",
+    "9": "test",
+    "10": "test"
+  },
+  "train_file_orders": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "validation_file_orders": [
+    7,
+    8
+  ],
+  "test_file_orders": [
+    9,
+    10
+  ],
+  "interpretation": "This is a strict temporal distribution-shift protocol. Attack families absent from training but present later must be treated as temporally unseen rather than as ordinary known closed-set classes.",
+  "processed_dataset_path": "/kaggle/working/DCCT-NIDS/data/processed/cse_cic_ids2018_deduplicated.parquet",
+  "provenance_path": "/kaggle/working/DCCT-NIDS/data/processed/cse_cic_ids2018_deduplicated_provenance.parquet",
+  "row_manifest_path": "/kaggle/working/DCCT-NIDS/data/processed/cse_cic_ids2018_strict_chronological_split.parquet"
+}

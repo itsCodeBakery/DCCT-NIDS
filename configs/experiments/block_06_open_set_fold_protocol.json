@@ -1,0 +1,91 @@
+{
+  "dataset": "CSE-CIC-IDS2018",
+  "protocol_name": "leave_one_attack_family_out_open_set",
+  "version": "1.0.0",
+  "created_at_utc": "2026-07-10T06:36:38.109463+00:00",
+  "unknown_label": "Unknown",
+  "minimum_unknown_test_rows": 50,
+  "folds": [
+    {
+      "fold_id": "LOFO_01_Botnet",
+      "unknown_family": "Botnet",
+      "unknown_test_rows": 144535,
+      "known_pool_rows": 6175420,
+      "unknown_label": "Unknown",
+      "training_rule": "Remove every row belonging to the unknown family from training and validation.",
+      "test_rule": "Evaluate the held-out family as Unknown together with known benign and attack-family traffic.",
+      "threshold_tuning_rule": "Unknown test labels must not be used to tune the rejection threshold.",
+      "eligible": true
+    },
+    {
+      "fold_id": "LOFO_02_Brute_Force",
+      "unknown_family": "Brute Force",
+      "unknown_test_rows": 94882,
+      "known_pool_rows": 6225073,
+      "unknown_label": "Unknown",
+      "training_rule": "Remove every row belonging to the unknown family from training and validation.",
+      "test_rule": "Evaluate the held-out family as Unknown together with known benign and attack-family traffic.",
+      "threshold_tuning_rule": "Unknown test labels must not be used to tune the rejection threshold.",
+      "eligible": true
+    },
+    {
+      "fold_id": "LOFO_03_DDoS",
+      "unknown_family": "DDoS",
+      "unknown_test_rows": 775955,
+      "known_pool_rows": 5544000,
+      "unknown_label": "Unknown",
+      "training_rule": "Remove every row belonging to the unknown family from training and validation.",
+      "test_rule": "Evaluate the held-out family as Unknown together with known benign and attack-family traffic.",
+      "threshold_tuning_rule": "Unknown test labels must not be used to tune the rejection threshold.",
+      "eligible": true
+    },
+    {
+      "fold_id": "LOFO_04_DoS",
+      "unknown_family": "DoS",
+      "unknown_test_rows": 196523,
+      "known_pool_rows": 6123432,
+      "unknown_label": "Unknown",
+      "training_rule": "Remove every row belonging to the unknown family from training and validation.",
+      "test_rule": "Evaluate the held-out family as Unknown together with known benign and attack-family traffic.",
+      "threshold_tuning_rule": "Unknown test labels must not be used to tune the rejection threshold.",
+      "eligible": true
+    },
+    {
+      "fold_id": "LOFO_05_Infiltration",
+      "unknown_family": "Infiltration",
+      "unknown_test_rows": 113819,
+      "known_pool_rows": 6206136,
+      "unknown_label": "Unknown",
+      "training_rule": "Remove every row belonging to the unknown family from training and validation.",
+      "test_rule": "Evaluate the held-out family as Unknown together with known benign and attack-family traffic.",
+      "threshold_tuning_rule": "Unknown test labels must not be used to tune the rejection threshold.",
+      "eligible": true
+    },
+    {
+      "fold_id": "LOFO_06_Web_Attack",
+      "unknown_family": "Web Attack",
+      "unknown_test_rows": 84,
+      "known_pool_rows": 6319871,
+      "unknown_label": "Unknown",
+      "training_rule": "Remove every row belonging to the unknown family from training and validation.",
+      "test_rule": "Evaluate the held-out family as Unknown together with known benign and attack-family traffic.",
+      "threshold_tuning_rule": "Unknown test labels must not be used to tune the rejection threshold.",
+      "eligible": true
+    }
+  ],
+  "global_rules": {
+    "benign_never_held_out": true,
+    "unknown_family_absent_from_train": true,
+    "unknown_family_absent_from_validation": true,
+    "unknown_threshold_test_tuning_prohibited": true,
+    "primary_metrics": [
+      "Known-class Macro-F1",
+      "Unknown AUROC",
+      "Unknown AUPR",
+      "Unknown F1",
+      "FPR@95TPR",
+      "OSCR",
+      "Benign FPR"
+    ]
+  }
+}

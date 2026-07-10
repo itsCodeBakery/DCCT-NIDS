@@ -36,11 +36,17 @@
       "name": "Authoritative attack taxonomy correction",
       "status": "completed",
       "manifest": "outputs/manifests/block_05a_taxonomy_correction_manifest.json"
+    },
+    {
+      "block": "06",
+      "name": "Chronological provenance and open-set split protocols",
+      "status": "completed",
+      "manifest": "outputs/manifests/block_06_split_protocol_manifest.json"
     }
   ],
   "next_block": {
-    "block": "06",
-    "name": "Chronological split design and open-set fold generation",
+    "block": "07",
+    "name": "Leakage-resistant stratified baseline dataset and preprocessing pipeline",
     "status": "pending"
   },
   "primary_metrics": [
@@ -59,5 +65,5 @@
     31415,
     271828
   ],
-  "last_updated_utc": "2026-07-10T06:27:19.605236+00:00"
+  "last_updated_utc": "2026-07-10T06:36:52.824965+00:00"
 }

@@ -1,0 +1,7 @@
+attack_family,total_rows,first_file_order,last_file_order,capture_file_count,first_capture_date,last_capture_date,supports_temporal_known_class_test,supports_open_set_holdout
+DDoS,775955,4,5,2,2018-02-20,2018-02-21,True,True
+DoS,196523,2,3,2,2018-02-15,2018-02-16,True,True
+Botnet,144535,10,10,1,2018-03-02,2018-03-02,False,True
+Infiltration,113819,8,9,2,2018-02-28,2018-03-01,True,True
+Brute Force,94882,1,7,3,2018-02-14,2018-02-23,True,True
+Web Attack,84,6,7,2,2018-02-22,2018-02-23,True,True

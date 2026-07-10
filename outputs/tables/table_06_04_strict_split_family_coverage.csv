@@ -1,0 +1,8 @@
+attack_family,test,train,validation,present_in_train,present_in_validation,present_in_test,strict_protocol_role
+Benign,769928,3135491,1088738,True,True,True,known_test_family
+Botnet,144535,0,0,False,False,True,temporally_unseen_test_family
+Brute Force,0,94408,474,True,True,False,not_present_in_test
+DDoS,0,775955,0,True,False,False,not_present_in_test
+DoS,0,196523,0,True,False,False,not_present_in_test
+Infiltration,57370,0,56449,False,True,True,temporally_unseen_test_family
+Web Attack,0,34,50,True,True,False,not_present_in_test

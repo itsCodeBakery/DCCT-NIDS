@@ -1,0 +1,1 @@
+Figure 6.2. Traffic-family coverage under the strict chronological protocol. Bold annotations report exact row counts in training, validation, and testing. Zero-valued training cells for later attack families identify genuine temporally unseen classes and prevent those families from being evaluated as ordinary known closed-set categories.

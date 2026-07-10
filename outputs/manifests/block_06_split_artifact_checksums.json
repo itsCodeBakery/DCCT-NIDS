@@ -1,0 +1,18 @@
+{
+  "created_at_utc": "2026-07-10T06:36:38.200325+00:00",
+  "processed_dataset": {
+    "path": "/kaggle/working/DCCT-NIDS/data/processed/cse_cic_ids2018_deduplicated.parquet",
+    "row_count": 6319955,
+    "sha256": "1a4e07447a721dc6a5d148b98fdf2565076407cb9ebbb51d311162092bc5335b"
+  },
+  "provenance_sidecar": {
+    "path": "/kaggle/working/DCCT-NIDS/data/processed/cse_cic_ids2018_deduplicated_provenance.parquet",
+    "row_count": 6319955,
+    "sha256": "46c3d718117850d221b9966aae8f0e5a3c4917f7cd022c478dae2cfbc71a95d9"
+  },
+  "strict_split_manifest": {
+    "path": "/kaggle/working/DCCT-NIDS/data/processed/cse_cic_ids2018_strict_chronological_split.parquet",
+    "row_count": 6319955,
+    "sha256": "dc3b2591b81d38a2205588181f04d013e257b8293d3b7cf401fa83d3e7f660ae"
+  }
+}

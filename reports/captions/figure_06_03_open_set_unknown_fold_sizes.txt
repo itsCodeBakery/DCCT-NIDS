@@ -1,0 +1,1 @@
+Figure 6.3. Number of held-out unknown flows in each leave-one-attack-family-out fold. Bold labels report exact unknown-test counts. The logarithmic axis highlights the large differences in family prevalence, which require per-fold reporting and macro-averaging across folds.

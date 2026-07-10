@@ -1,0 +1,11 @@
+file_order,file_name,short_file_name,file_path,capture_date,raw_rows,strict_chronological_split
+1,Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,Bruteforce-Wednesday-14-02-2018,/kaggle/input/datasets/dhoogla/csecicids2018/Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,2018-02-14,619346,train
+2,DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,DoS1-Thursday-15-02-2018,/kaggle/input/datasets/dhoogla/csecicids2018/DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,2018-02-15,794812,train
+3,DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,DoS2-Friday-16-02-2018,/kaggle/input/datasets/dhoogla/csecicids2018/DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,2018-02-16,591873,train
+4,DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,DDoS1-Tuesday-20-02-2018,/kaggle/input/datasets/dhoogla/csecicids2018/DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,2018-02-20,954846,train
+5,DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,DDoS2-Wednesday-21-02-2018,/kaggle/input/datasets/dhoogla/csecicids2018/DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,2018-02-21,561396,train
+6,Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,Web1-Thursday-22-02-2018,/kaggle/input/datasets/dhoogla/csecicids2018/Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,2018-02-22,830224,train
+7,Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,Web2-Friday-23-02-2018,/kaggle/input/datasets/dhoogla/csecicids2018/Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,2018-02-23,829405,validation
+8,Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,Infil1-Wednesday-28-02-2018,/kaggle/input/datasets/dhoogla/csecicids2018/Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,2018-02-28,456873,validation
+9,Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,Infil2-Thursday-01-03-2018,/kaggle/input/datasets/dhoogla/csecicids2018/Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,2018-03-01,249170,test
+10,Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,Botnet-Friday-02-03-2018,/kaggle/input/datasets/dhoogla/csecicids2018/Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,2018-03-02,771587,test

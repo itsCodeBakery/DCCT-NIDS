@@ -1,0 +1,23 @@
+file_order,file_name,capture_date,attack_family,row_count,short_file_name,total_rows,within_file_percentage
+1,Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,2018-02-14,Benign,525245,Bruteforce-Wednesday-14-02-2018,619346,84.80639254956034
+1,Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,2018-02-14,Brute Force,94101,Bruteforce-Wednesday-14-02-2018,619346,15.193607450439657
+2,DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,2018-02-15,Benign,689815,DoS1-Thursday-15-02-2018,741084,93.08189085177929
+2,DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,2018-02-15,DoS,51269,DoS1-Thursday-15-02-2018,741084,6.918109148220714
+3,DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,2018-02-16,Benign,446618,DoS2-Friday-16-02-2018,591872,75.45854509083046
+3,DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,2018-02-16,DoS,145254,DoS2-Friday-16-02-2018,591872,24.54145490916955
+4,DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,2018-02-20,DDoS,575364,DDoS1-Tuesday-20-02-2018,938863,61.28306259805744
+4,DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,2018-02-20,Benign,363499,DDoS1-Tuesday-20-02-2018,938863,38.71693740194256
+5,DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,2018-02-21,Benign,360794,DDoS2-Wednesday-21-02-2018,561385,64.26855010376123
+5,DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,2018-02-21,DDoS,200591,DDoS2-Wednesday-21-02-2018,561385,35.731449896238765
+6,Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,2018-02-22,Benign,749520,Web1-Thursday-22-02-2018,749861,99.95452490528244
+6,Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,2018-02-22,Brute Force,307,Web1-Thursday-22-02-2018,749861,0.0409409210507014
+6,Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,2018-02-22,Web Attack,34,Web1-Thursday-22-02-2018,749861,0.004534173666852923
+7,Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,2018-02-23,Benign,732783,Web2-Friday-23-02-2018,733307,99.92854288858554
+7,Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,2018-02-23,Brute Force,474,Web2-Friday-23-02-2018,733307,0.06463868475277067
+7,Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,2018-02-23,Web Attack,50,Web2-Friday-23-02-2018,733307,0.0068184266616846696
+8,Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,2018-02-28,Benign,355955,Infil1-Wednesday-28-02-2018,412404,86.31220841698917
+8,Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,2018-02-28,Infiltration,56449,Infil1-Wednesday-28-02-2018,412404,13.687791583010833
+9,Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,2018-03-01,Benign,171979,Infil2-Thursday-01-03-2018,229349,74.98572045223655
+9,Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,2018-03-01,Infiltration,57370,Infil2-Thursday-01-03-2018,229349,25.01427954776345
+10,Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,2018-03-02,Benign,597949,Botnet-Friday-02-03-2018,742484,80.53358725575231
+10,Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,2018-03-02,Botnet,144535,Botnet-Friday-02-03-2018,742484,19.466412744247688

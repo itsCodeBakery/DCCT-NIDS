@@ -270,3 +270,10 @@ data/processed/
 *.duckdb.wal
 *.parquet
 *.pq
+
+# DCCT-NIDS generated split and provenance data
+data/processed/
+data/interim/
+*.parquet
+*.duckdb
+*.duckdb.wal

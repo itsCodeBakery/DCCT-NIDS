@@ -1,0 +1,148 @@
+{
+  "block": "06",
+  "status": "completed",
+  "created_at_utc": "2026-07-10T06:36:52.821554+00:00",
+  "raw_rows": 6659532,
+  "deduplicated_rows": 6319955,
+  "provenance_rows": 6319955,
+  "row_alignment_mismatches": 0,
+  "provenance_sha256": "46c3d718117850d221b9966aae8f0e5a3c4917f7cd022c478dae2cfbc71a95d9",
+  "strict_split_manifest_sha256": "dc3b2591b81d38a2205588181f04d013e257b8293d3b7cf401fa83d3e7f660ae",
+  "chronological_files": [
+    {
+      "file_order": 1,
+      "file_name": "Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet",
+      "short_file_name": "Bruteforce-Wednesday-14-02-2018",
+      "file_path": "/kaggle/input/datasets/dhoogla/csecicids2018/Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet",
+      "capture_date": "2018-02-14 00:00:00",
+      "raw_rows": 619346
+    },
+    {
+      "file_order": 2,
+      "file_name": "DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet",
+      "short_file_name": "DoS1-Thursday-15-02-2018",
+      "file_path": "/kaggle/input/datasets/dhoogla/csecicids2018/DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet",
+      "capture_date": "2018-02-15 00:00:00",
+      "raw_rows": 794812
+    },
+    {
+      "file_order": 3,
+      "file_name": "DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet",
+      "short_file_name": "DoS2-Friday-16-02-2018",
+      "file_path": "/kaggle/input/datasets/dhoogla/csecicids2018/DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet",
+      "capture_date": "2018-02-16 00:00:00",
+      "raw_rows": 591873
+    },
+    {
+      "file_order": 4,
+      "file_name": "DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet",
+      "short_file_name": "DDoS1-Tuesday-20-02-2018",
+      "file_path": "/kaggle/input/datasets/dhoogla/csecicids2018/DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet",
+      "capture_date": "2018-02-20 00:00:00",
+      "raw_rows": 954846
+    },
+    {
+      "file_order": 5,
+      "file_name": "DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet",
+      "short_file_name": "DDoS2-Wednesday-21-02-2018",
+      "file_path": "/kaggle/input/datasets/dhoogla/csecicids2018/DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet",
+      "capture_date": "2018-02-21 00:00:00",
+      "raw_rows": 561396
+    },
+    {
+      "file_order": 6,
+      "file_name": "Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet",
+      "short_file_name": "Web1-Thursday-22-02-2018",
+      "file_path": "/kaggle/input/datasets/dhoogla/csecicids2018/Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet",
+      "capture_date": "2018-02-22 00:00:00",
+      "raw_rows": 830224
+    },
+    {
+      "file_order": 7,
+      "file_name": "Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet",
+      "short_file_name": "Web2-Friday-23-02-2018",
+      "file_path": "/kaggle/input/datasets/dhoogla/csecicids2018/Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet",
+      "capture_date": "2018-02-23 00:00:00",
+      "raw_rows": 829405
+    },
+    {
+      "file_order": 8,
+      "file_name": "Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet",
+      "short_file_name": "Infil1-Wednesday-28-02-2018",
+      "file_path": "/kaggle/input/datasets/dhoogla/csecicids2018/Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet",
+      "capture_date": "2018-02-28 00:00:00",
+      "raw_rows": 456873
+    },
+    {
+      "file_order": 9,
+      "file_name": "Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet",
+      "short_file_name": "Infil2-Thursday-01-03-2018",
+      "file_path": "/kaggle/input/datasets/dhoogla/csecicids2018/Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet",
+      "capture_date": "2018-03-01 00:00:00",
+      "raw_rows": 249170
+    },
+    {
+      "file_order": 10,
+      "file_name": "Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet",
+      "short_file_name": "Botnet-Friday-02-03-2018",
+      "file_path": "/kaggle/input/datasets/dhoogla/csecicids2018/Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet",
+      "capture_date": "2018-03-02 00:00:00",
+      "raw_rows": 771587
+    }
+  ],
+  "strict_protocol": {
+    "train_file_orders": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "validation_file_orders": [
+      7,
+      8
+    ],
+    "test_file_orders": [
+      9,
+      10
+    ],
+    "known_test_families": [
+      "Benign"
+    ],
+    "temporally_unseen_test_families": [
+      "Botnet",
+      "Infiltration"
+    ]
+  },
+  "open_set_protocol": {
+    "fold_count": 6,
+    "unknown_families": [
+      "Botnet",
+      "Brute Force",
+      "DDoS",
+      "DoS",
+      "Infiltration",
+      "Web Attack"
+    ],
+    "minimum_unknown_rows": 50
+  },
+  "local_large_artifacts": {
+    "provenance_sidecar": "/kaggle/working/DCCT-NIDS/data/processed/cse_cic_ids2018_deduplicated_provenance.parquet",
+    "strict_split_manifest": "/kaggle/working/DCCT-NIDS/data/processed/cse_cic_ids2018_strict_chronological_split.parquet",
+    "git_tracked": false
+  },
+  "elapsed_seconds": 112.56650683400039,
+  "artifacts": {
+    "chronological_family_table": "outputs/tables/table_06_01_chronological_family_distribution.csv",
+    "family_coverage_table": "outputs/tables/table_06_02_family_temporal_coverage.csv",
+    "strict_file_split": "outputs/tables/table_06_03_strict_chronological_file_split.csv",
+    "strict_family_coverage": "outputs/tables/table_06_04_strict_split_family_coverage.csv",
+    "open_set_fold_registry": "outputs/tables/table_06_05_open_set_fold_registry.csv",
+    "strict_protocol_config": "configs/experiments/block_06_strict_chronological_protocol.json",
+    "open_set_protocol_config": "configs/experiments/block_06_open_set_fold_protocol.json",
+    "checksums": "outputs/manifests/block_06_split_artifact_checksums.json",
+    "provenance_sql": "scripts/block_06_reconstruct_provenance.sql",
+    "methodology_note": "reports/experiment_notes/block_06_chronological_and_open_set_protocol.md"
+  }
+}
