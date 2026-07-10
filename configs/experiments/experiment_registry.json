@@ -78,11 +78,17 @@
       "name": "CatBoost GPU capability probe",
       "status": "completed",
       "manifest": "outputs/manifests/block_08d_a_catboost_gpu_probe_manifest.json"
+    },
+    {
+      "block": "08D-B",
+      "name": "CatBoost GPU operational temporal baseline",
+      "status": "completed",
+      "manifest": "outputs/manifests/block_08d_catboost_operational_manifest.json"
     }
   ],
   "next_block": {
-    "block": "08D-B",
-    "name": "GPU CatBoost operational temporal baseline",
+    "block": "08E",
+    "name": "Tree-based baseline comparison and statistical ranking",
     "status": "pending"
   },
   "primary_metrics": [
@@ -101,5 +107,5 @@
     31415,
     271828
   ],
-  "last_updated_utc": "2026-07-10T09:50:40.320218+00:00"
+  "last_updated_utc": "2026-07-10T10:16:44.060080+00:00"
 }

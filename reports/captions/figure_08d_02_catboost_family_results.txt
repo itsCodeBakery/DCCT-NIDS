@@ -1,0 +1,1 @@
+Figure 8D.2. Family-wise strict temporal-test performance for the selected CatBoost GPU model. Botnet and Infiltration were absent from the official training period; the Benign bar reports false-positive rate.

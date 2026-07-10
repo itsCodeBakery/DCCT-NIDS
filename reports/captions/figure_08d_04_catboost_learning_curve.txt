@@ -1,0 +1,1 @@
+Figure 8D.4. CatBoost internal fitting and holdout loss across boosting iterations. The dashed line marks the early-stopping-selected model.

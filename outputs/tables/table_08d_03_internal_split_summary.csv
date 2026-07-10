@@ -1,0 +1,3 @@
+partition,rows,benign_rows,attack_rows,attack_family_count,fine_grained_class_count
+internal_fit,3572049,2665167,906882,5,13
+internal_holdout,630362,470324,160038,5,13

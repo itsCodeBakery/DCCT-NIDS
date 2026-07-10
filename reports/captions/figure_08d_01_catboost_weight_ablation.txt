@@ -1,0 +1,1 @@
+Figure 8D.1. Internal MCC and exact benign false-positive rate for three native-GPU CatBoost class-weight variants under the one-percent operational threshold policy.
