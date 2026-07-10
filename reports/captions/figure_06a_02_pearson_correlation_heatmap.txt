@@ -1,0 +1,1 @@
+Figure 6A.2. Pearson correlation matrix for the 67 leakage-safe primary features, estimated using the deterministic stratified sample. Strong dependencies identify candidates for redundancy-aware ablation.

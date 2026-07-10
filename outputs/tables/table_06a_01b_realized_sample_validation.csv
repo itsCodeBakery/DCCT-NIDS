@@ -1,0 +1,16 @@
+fine_grained_label,population_rows,sample_target,realized_sample_rows,matches_target
+Benign,4994157,100000,100000,True
+DDoS attacks-LOIC-HTTP,575364,100000,100000,True
+DDOS attack-HOIC,198861,72495,72495,True
+DoS attacks-Hulk,145199,6892,6892,True
+Bot,144535,6861,6861,True
+Infilteration,113819,5403,5403,True
+SSH-Bruteforce,94048,4464,4464,True
+DoS attacks-GoldenEye,41406,1965,1965,True
+DoS attacks-Slowloris,9863,500,500,True
+DDOS attack-LOIC-UDP,1730,500,500,True
+Brute Force -Web,553,500,500,True
+Brute Force -XSS,228,228,228,True
+SQL Injection,84,84,84,True
+DoS attacks-SlowHTTPTest,55,55,55,True
+FTP-BruteForce,53,53,53,True

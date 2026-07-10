@@ -1,0 +1,21 @@
+{
+  "block": "06A-FIX",
+  "status": "completed",
+  "created_at_utc": "2026-07-10T07:03:08.381952+00:00",
+  "failure_corrected": "Materialized processed row IDs in a CTE before joining to provenance.",
+  "sample_rows": 300000,
+  "sample_class_count": 15,
+  "primary_features": 67,
+  "pearson_high_pairs": 94,
+  "spearman_high_pairs": 57,
+  "sample_zero_variance_features": 0,
+  "sample_near_zero_variance_features": 0,
+  "artifacts": {
+    "sample_validation": "outputs/tables/table_06a_01b_realized_sample_validation.csv",
+    "statistical_profile": "outputs/tables/table_06a_02_feature_statistical_profile.csv",
+    "pearson_matrix": "outputs/tables/table_06a_04_pearson_correlation_matrix.csv",
+    "spearman_matrix": "outputs/tables/table_06a_05_spearman_correlation_matrix.csv",
+    "correlated_pairs": "outputs/tables/table_06a_06_highly_correlated_feature_pairs.csv",
+    "mutual_information": "outputs/tables/table_06a_07_mutual_information_ranking.csv"
+  }
+}
