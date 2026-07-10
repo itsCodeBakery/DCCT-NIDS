@@ -1,0 +1,1 @@
+XGBoost Compact binary test confusion matrix at the validation-selected threshold 0.47502699. Bold annotations report exact record counts.

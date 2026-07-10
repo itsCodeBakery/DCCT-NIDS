@@ -1,0 +1,1 @@
+Family-wise temporal-test outcomes for the GPU XGBoost Compact binary baseline. Botnet and Infiltration are unseen during training; the Benign bar represents the false-positive rate rather than attack recall.

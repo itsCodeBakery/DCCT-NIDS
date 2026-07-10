@@ -1,0 +1,1 @@
+Training and validation log-loss across GPU XGBoost boosting iterations. The vertical line marks the early-stopping-selected model iteration.

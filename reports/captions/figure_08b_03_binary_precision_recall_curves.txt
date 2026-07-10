@@ -1,0 +1,1 @@
+Validation and strict temporal-test precision–recall curves for the GPU XGBoost Compact binary baseline. AUPR is emphasized because the attack prevalence differs substantially across chronological periods.

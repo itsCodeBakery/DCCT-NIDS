@@ -54,11 +54,17 @@
       "name": "GPU audit and Compact model-ready strict split materialization",
       "status": "completed",
       "manifest": "outputs/manifests/block_08a_compact_materialization_manifest.json"
+    },
+    {
+      "block": "08B",
+      "name": "GPU XGBoost Compact binary temporal baseline",
+      "status": "completed",
+      "manifest": "outputs/manifests/block_08b_xgboost_binary_manifest.json"
     }
   ],
   "next_block": {
-    "block": "08B",
-    "name": "GPU-accelerated Compact baseline models",
+    "block": "08C",
+    "name": "GPU CatBoost binary temporal baseline",
     "status": "pending"
   },
   "primary_metrics": [
@@ -77,5 +83,5 @@
     31415,
     271828
   ],
-  "last_updated_utc": "2026-07-10T07:25:52.355441+00:00"
+  "last_updated_utc": "2026-07-10T07:35:17.817493+00:00"
 }

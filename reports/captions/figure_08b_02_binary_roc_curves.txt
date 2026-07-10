@@ -1,0 +1,1 @@
+Validation and strict temporal-test ROC curves for the GPU XGBoost Compact binary baseline. The temporal test contains Botnet and Infiltration families absent from the training partition.

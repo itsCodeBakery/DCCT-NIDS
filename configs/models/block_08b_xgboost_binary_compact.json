@@ -1,0 +1,31 @@
+{
+  "model": "XGBoost",
+  "task": "binary temporal intrusion detection",
+  "feature_set": "Compact",
+  "feature_count": 32,
+  "parameters": {
+    "objective": "binary:logistic",
+    "eval_metric": [
+      "logloss",
+      "auc",
+      "aucpr"
+    ],
+    "tree_method": "hist",
+    "device": "cuda",
+    "max_depth": 10,
+    "min_child_weight": 2.0,
+    "learning_rate": 0.05,
+    "subsample": 0.85,
+    "colsample_bytree": 0.85,
+    "reg_alpha": 0.05,
+    "reg_lambda": 1.0,
+    "max_bin": 256,
+    "seed": 42,
+    "verbosity": 1,
+    "scale_pos_weight": 2.93882484160012
+  },
+  "maximum_boost_rounds": 2000,
+  "early_stopping_rounds": 100,
+  "threshold_policy": "Maximum validation F1; test labels unused",
+  "random_seed": 42
+}
