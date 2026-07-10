@@ -1,0 +1,20 @@
+{
+  "block": "04",
+  "name": "exact_full_row_deduplication",
+  "created_at_utc": "2026-07-10T06:12:04.719364+00:00",
+  "dataset": "CSE-CIC-IDS2018",
+  "raw_dataset_path": "/kaggle/input/datasets/dhoogla/csecicids2018",
+  "processed_dataset_path": "/kaggle/working/DCCT-NIDS/data/processed/cse_cic_ids2018_deduplicated.parquet",
+  "deduplication_scope": "All 78 canonical logical dataset columns",
+  "retention_policy": "Earliest chronological capture-file occurrence, then earliest ingestion order",
+  "execution_engine": "DuckDB",
+  "duckdb_version": "1.3.2",
+  "raw_rows": 6659532,
+  "retained_rows": 6319955,
+  "duplicate_rows_removed": 339577,
+  "duplicate_percentage": 5.099112069737033,
+  "output_compression": "ZSTD",
+  "output_row_group_size": 100000,
+  "output_sha256": "1a4e07447a721dc6a5d148b98fdf2565076407cb9ebbb51d311162092bc5335b",
+  "randomness": "None"
+}

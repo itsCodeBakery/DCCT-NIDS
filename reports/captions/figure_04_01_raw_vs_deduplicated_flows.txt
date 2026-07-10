@@ -1,0 +1,1 @@
+Figure 4.1. Comparison of raw and retained unique network-flow records across the ten chronological CSE-CIC-IDS2018 capture files. Bold labels report exact flow counts. Deduplication was performed across all 78 canonical columns while retaining the earliest chronological occurrence of every repeated record.

@@ -1,0 +1,1 @@
+Figure 4.3. Traffic-class distribution after exact full-row deduplication. The logarithmic horizontal axis preserves visibility of rare attack classes. Bold labels show exact retained counts and percentages, confirming that class imbalance remains a central modelling challenge after duplicate removal.

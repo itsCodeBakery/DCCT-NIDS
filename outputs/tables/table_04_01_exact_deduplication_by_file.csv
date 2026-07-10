@@ -1,0 +1,11 @@
+file_order,file_name,raw_rows,retained_rows,duplicate_rows_removed,duplicate_percentage,short_file_name,capture_date
+1,Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,619346,619346,0,0.0,Bruteforce-Wednesday-14-02-2018,2018-02-14
+2,DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,794812,741084,53728,6.759837546488981,DoS1-Thursday-15-02-2018,2018-02-15
+3,DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,591873,591872,1,0.00016895516436803165,DoS2-Friday-16-02-2018,2018-02-16
+4,DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,954846,938863,15983,1.6738824899512592,DDoS1-Tuesday-20-02-2018,2018-02-20
+5,DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,561396,561385,11,0.0019594012069911433,DDoS2-Wednesday-21-02-2018,2018-02-21
+6,Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,830224,749861,80363,9.679676810113897,Web1-Thursday-22-02-2018,2018-02-22
+7,Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,829405,733307,96098,11.586378186772444,Web2-Friday-23-02-2018,2018-02-23
+8,Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,456873,412404,44469,9.733339461951132,Infil1-Wednesday-28-02-2018,2018-02-28
+9,Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,249170,229349,19821,7.954809969097403,Infil2-Thursday-01-03-2018,2018-03-01
+10,Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,771587,742484,29103,3.771836487654665,Botnet-Friday-02-03-2018,2018-03-02

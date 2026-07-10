@@ -1,0 +1,8 @@
+{
+  "file_name": "cse_cic_ids2018_deduplicated.parquet",
+  "relative_path": "data/processed/cse_cic_ids2018_deduplicated.parquet",
+  "sha256": "1a4e07447a721dc6a5d148b98fdf2565076407cb9ebbb51d311162092bc5335b",
+  "size_bytes": 524691973,
+  "row_count": 6319955,
+  "column_count": 78
+}

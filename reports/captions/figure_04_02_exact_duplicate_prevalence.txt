@@ -1,0 +1,1 @@
+Figure 4.2. Exact full-row duplicate prevalence in each chronological capture file. Bold labels report both the percentage and exact count of records removed. Unlike the earlier sample-based estimate, these values were calculated over all 6,659,532 source records.

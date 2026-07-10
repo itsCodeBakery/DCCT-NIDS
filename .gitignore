@@ -261,3 +261,12 @@ kaggle.json
 *.tmp
 *.temp
 *.bak
+
+# DCCT-NIDS generated datasets and databases
+data/raw/
+data/interim/
+data/processed/
+*.duckdb
+*.duckdb.wal
+*.parquet
+*.pq

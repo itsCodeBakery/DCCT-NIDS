@@ -18,11 +18,17 @@
       "block": "02B",
       "name": "Canonical streaming dataset audit",
       "status": "completed"
+    },
+    {
+      "block": "04",
+      "name": "Exact full-row deduplication",
+      "status": "completed",
+      "manifest": "outputs/manifests/block_04_exact_deduplication_manifest.json"
     }
   ],
   "next_block": {
-    "block": "04",
-    "name": "Exact deduplication and preprocessing policy",
+    "block": "05",
+    "name": "Leakage-safe feature policy and label harmonization",
     "status": "pending"
   },
   "primary_metrics": [
@@ -40,5 +46,6 @@
     2026,
     31415,
     271828
-  ]
+  ],
+  "last_updated_utc": "2026-07-10T06:12:14.755349+00:00"
 }
