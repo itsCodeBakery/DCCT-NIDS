@@ -1,0 +1,11 @@
+file_name,short_file_name,capture_date,rows,observed_class_count,null_cells,infinite_cells,negative_numeric_cells,zero_numeric_cells
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,Bruteforce-Wednesday-14-02-2018,2018-02-14,619346,3,0,0,395210,21468894
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,DoS1-Thursday-15-02-2018,2018-02-15,794812,3,0,0,633441,28811140
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,DoS2-Friday-16-02-2018,2018-02-16,591873,3,0,0,121662,20461095
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,DDoS1-Tuesday-20-02-2018,2018-02-20,954846,2,0,0,585740,37238636
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,DDoS2-Wednesday-21-02-2018,2018-02-21,561396,3,0,0,42544,16541510
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,Web1-Thursday-22-02-2018,2018-02-22,830224,4,0,0,620978,30685854
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,Web2-Friday-23-02-2018,2018-02-23,829405,4,0,0,608304,30774079
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,Infil1-Wednesday-28-02-2018,2018-02-28,456873,2,0,0,411961,16289366
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,Infil2-Thursday-01-03-2018,2018-03-01,249170,2,0,0,215635,9065390
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,Botnet-Friday-02-03-2018,2018-03-02,771587,2,0,0,418965,26118622

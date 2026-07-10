@@ -1,0 +1,1 @@
+Figure 1. Number of network-flow records in each chronologically ordered CSE-CIC-IDS2018 capture file. Bold data labels give the exact number of flows. Variation in file size motivates both aggregate and capture-period-specific performance reporting.

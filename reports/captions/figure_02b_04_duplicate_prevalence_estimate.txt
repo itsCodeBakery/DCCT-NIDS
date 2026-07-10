@@ -1,0 +1,1 @@
+Figure 4. Estimated exact-row duplicate prevalence from a deterministic approximately 1% sample. Bold labels show the estimated percentage of rows duplicating an earlier sampled record. Exact full-dataset deduplication will be performed later.

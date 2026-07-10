@@ -216,3 +216,48 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# ============================================================
+# DCCT-NIDS research artifacts
+# ============================================================
+
+# Raw or processed datasets
+data/raw/
+data/interim/
+data/processed/
+*.parquet
+*.pq
+*.feather
+
+# Large model and runtime artifacts
+outputs/checkpoints/*
+outputs/predictions/*
+outputs/embeddings/*
+outputs/logs/*
+!outputs/checkpoints/.gitkeep
+!outputs/predictions/.gitkeep
+!outputs/embeddings/.gitkeep
+!outputs/logs/.gitkeep
+
+# Local caches and experiment trackers
+wandb/
+mlruns/
+lightning_logs/
+tensorboard/
+optuna.db
+*.sqlite
+*.sqlite3
+
+# Secrets and credentials
+*.pem
+*.key
+credentials.json
+kaggle.json
+.env*
+!.env.example
+
+# Temporary exports
+*.tmp
+*.temp
+*.bak

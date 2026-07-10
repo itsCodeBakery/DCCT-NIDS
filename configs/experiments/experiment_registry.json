@@ -1,0 +1,44 @@
+{
+  "project": "DCCT-NIDS",
+  "created_at_utc": "2026-07-10T06:02:02.979386+00:00",
+  "dataset": "CSE-CIC-IDS2018",
+  "dataset_path_kaggle": "/kaggle/input/datasets/dhoogla/csecicids2018",
+  "completed_blocks": [
+    {
+      "block": "01B",
+      "name": "Parquet dataset discovery",
+      "status": "completed"
+    },
+    {
+      "block": "02A",
+      "name": "Canonical schema harmonization",
+      "status": "completed"
+    },
+    {
+      "block": "02B",
+      "name": "Canonical streaming dataset audit",
+      "status": "completed"
+    }
+  ],
+  "next_block": {
+    "block": "04",
+    "name": "Exact deduplication and preprocessing policy",
+    "status": "pending"
+  },
+  "primary_metrics": [
+    "Macro-F1",
+    "Matthews Correlation Coefficient",
+    "Balanced Accuracy",
+    "Benign False Positive Rate",
+    "Unknown AUPR",
+    "Unknown AUROC",
+    "OSCR"
+  ],
+  "random_seeds": [
+    42,
+    123,
+    2026,
+    31415,
+    271828
+  ]
+}

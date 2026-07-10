@@ -1,0 +1,1 @@
+Figure 2. Global traffic-class distribution after canonically scanning all 6,659,532 records. The logarithmic axis makes minority classes visible. Bold labels report exact counts and global percentages, demonstrating the severe long-tailed class imbalance.

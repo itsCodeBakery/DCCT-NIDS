@@ -1,0 +1,79 @@
+column_position,column_name,canonical_type,is_numeric,provisional_role
+0,Protocol,int64,True,candidate_feature
+1,Flow Duration,int64,True,candidate_feature
+2,Total Fwd Packets,int64,True,candidate_feature
+3,Total Backward Packets,int64,True,candidate_feature
+4,Fwd Packets Length Total,int64,True,candidate_feature
+5,Bwd Packets Length Total,double,True,candidate_feature
+6,Fwd Packet Length Max,int64,True,candidate_feature
+7,Fwd Packet Length Min,int64,True,candidate_feature
+8,Fwd Packet Length Mean,double,True,candidate_feature
+9,Fwd Packet Length Std,double,True,candidate_feature
+10,Bwd Packet Length Max,int64,True,candidate_feature
+11,Bwd Packet Length Min,int64,True,candidate_feature
+12,Bwd Packet Length Mean,double,True,candidate_feature
+13,Bwd Packet Length Std,double,True,candidate_feature
+14,Flow Bytes/s,double,True,candidate_feature
+15,Flow Packets/s,double,True,candidate_feature
+16,Flow IAT Mean,double,True,candidate_feature
+17,Flow IAT Std,double,True,candidate_feature
+18,Flow IAT Max,double,True,candidate_feature
+19,Flow IAT Min,double,True,candidate_feature
+20,Fwd IAT Total,double,True,candidate_feature
+21,Fwd IAT Mean,double,True,candidate_feature
+22,Fwd IAT Std,double,True,candidate_feature
+23,Fwd IAT Max,double,True,candidate_feature
+24,Fwd IAT Min,double,True,candidate_feature
+25,Bwd IAT Total,double,True,candidate_feature
+26,Bwd IAT Mean,double,True,candidate_feature
+27,Bwd IAT Std,double,True,candidate_feature
+28,Bwd IAT Max,double,True,candidate_feature
+29,Bwd IAT Min,double,True,candidate_feature
+30,Fwd PSH Flags,int64,True,candidate_feature
+31,Bwd PSH Flags,int64,True,candidate_feature
+32,Fwd URG Flags,int64,True,candidate_feature
+33,Bwd URG Flags,int64,True,candidate_feature
+34,Fwd Header Length,int64,True,candidate_feature
+35,Bwd Header Length,int64,True,candidate_feature
+36,Fwd Packets/s,double,True,candidate_feature
+37,Bwd Packets/s,double,True,candidate_feature
+38,Packet Length Min,int64,True,candidate_feature
+39,Packet Length Max,int64,True,candidate_feature
+40,Packet Length Mean,double,True,candidate_feature
+41,Packet Length Std,double,True,candidate_feature
+42,Packet Length Variance,double,True,candidate_feature
+43,FIN Flag Count,int64,True,candidate_feature
+44,SYN Flag Count,int64,True,candidate_feature
+45,RST Flag Count,int64,True,candidate_feature
+46,PSH Flag Count,int64,True,candidate_feature
+47,ACK Flag Count,int64,True,candidate_feature
+48,URG Flag Count,int64,True,candidate_feature
+49,CWE Flag Count,int64,True,candidate_feature
+50,ECE Flag Count,int64,True,candidate_feature
+51,Down/Up Ratio,int64,True,candidate_feature
+52,Avg Packet Size,double,True,candidate_feature
+53,Avg Fwd Segment Size,double,True,candidate_feature
+54,Avg Bwd Segment Size,double,True,candidate_feature
+55,Fwd Avg Bytes/Bulk,int64,True,candidate_feature
+56,Fwd Avg Packets/Bulk,int64,True,candidate_feature
+57,Fwd Avg Bulk Rate,int64,True,candidate_feature
+58,Bwd Avg Bytes/Bulk,int64,True,candidate_feature
+59,Bwd Avg Packets/Bulk,int64,True,candidate_feature
+60,Bwd Avg Bulk Rate,int64,True,candidate_feature
+61,Subflow Fwd Packets,int64,True,candidate_feature
+62,Subflow Fwd Bytes,int64,True,candidate_feature
+63,Subflow Bwd Packets,int64,True,candidate_feature
+64,Subflow Bwd Bytes,int64,True,candidate_feature
+65,Init Fwd Win Bytes,int64,True,candidate_feature
+66,Init Bwd Win Bytes,int64,True,candidate_feature
+67,Fwd Act Data Packets,int64,True,candidate_feature
+68,Fwd Seg Size Min,int64,True,candidate_feature
+69,Active Mean,double,True,candidate_feature
+70,Active Std,double,True,candidate_feature
+71,Active Max,double,True,candidate_feature
+72,Active Min,double,True,candidate_feature
+73,Idle Mean,double,True,candidate_feature
+74,Idle Std,double,True,candidate_feature
+75,Idle Max,double,True,candidate_feature
+76,Idle Min,double,True,candidate_feature
+77,Label,string,False,target_label

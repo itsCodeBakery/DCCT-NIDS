@@ -1,0 +1,11 @@
+file_name,sample_rows,successful_column_casts,failed_column_casts,cast_failures_json
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,2000,78,0,[]
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,2000,78,0,[]
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,2000,78,0,[]
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,2000,78,0,[]
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,2000,78,0,[]
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,2000,78,0,[]
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,2000,78,0,[]
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,2000,78,0,[]
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,2000,78,0,[]
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,2000,78,0,[]

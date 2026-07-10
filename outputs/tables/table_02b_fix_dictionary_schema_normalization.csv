@@ -1,0 +1,2 @@
+column_name,original_canonical_type,normalized_canonical_type,reason
+Label,"dictionary<values=string, indices=int8, ordered=0>",string,Dictionary-encoded string normalized to a standard logical string type.

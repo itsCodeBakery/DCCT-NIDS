@@ -1,0 +1,12 @@
+{
+  "sampling_method": "Deterministic independent row sampling within each Parquet batch.",
+  "random_seed": 42,
+  "requested_fraction": 0.01,
+  "sample_rows": 66396,
+  "sample_fraction_of_full_dataset": 0.009970069968880696,
+  "unique_row_hashes": 66344,
+  "rows_in_duplicate_groups": 104,
+  "duplicate_rows_after_first_occurrence": 52,
+  "estimated_duplicate_percentage": 0.07831797096210615,
+  "interpretation": "This is a sample-based prevalence estimate. The final preprocessing pipeline will perform exact full-dataset deduplication."
+}

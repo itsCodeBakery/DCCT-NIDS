@@ -1,0 +1,11 @@
+relative_path,column_count,same_column_set,same_column_order,missing_columns,extra_columns
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,78,True,True,,
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,78,True,True,,
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,78,True,True,,
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,78,True,True,,
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,78,True,True,,
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,78,True,True,,
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,78,True,True,,
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,78,True,True,,
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,78,True,True,,
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,78,True,True,,

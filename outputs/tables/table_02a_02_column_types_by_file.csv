@@ -1,0 +1,781 @@
+relative_path,column_position,column_name,physical_type,type_family,nullable
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,0,Protocol,int8,integer,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,1,Flow Duration,int32,integer,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,2,Total Fwd Packets,int32,integer,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,3,Total Backward Packets,int32,integer,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,4,Fwd Packets Length Total,int32,integer,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,5,Bwd Packets Length Total,float,floating,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,6,Fwd Packet Length Max,int16,integer,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,7,Fwd Packet Length Min,int16,integer,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,8,Fwd Packet Length Mean,float,floating,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,9,Fwd Packet Length Std,float,floating,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,10,Bwd Packet Length Max,int16,integer,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,11,Bwd Packet Length Min,int16,integer,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,12,Bwd Packet Length Mean,float,floating,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,13,Bwd Packet Length Std,float,floating,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,14,Flow Bytes/s,double,floating,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,15,Flow Packets/s,double,floating,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,16,Flow IAT Mean,float,floating,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,17,Flow IAT Std,float,floating,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,18,Flow IAT Max,float,floating,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,19,Flow IAT Min,float,floating,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,20,Fwd IAT Total,float,floating,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,21,Fwd IAT Mean,float,floating,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,22,Fwd IAT Std,float,floating,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,23,Fwd IAT Max,float,floating,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,24,Fwd IAT Min,float,floating,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,25,Bwd IAT Total,float,floating,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,26,Bwd IAT Mean,float,floating,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,27,Bwd IAT Std,float,floating,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,28,Bwd IAT Max,float,floating,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,29,Bwd IAT Min,float,floating,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,30,Fwd PSH Flags,int8,integer,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,31,Bwd PSH Flags,int8,integer,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,32,Fwd URG Flags,int8,integer,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,33,Bwd URG Flags,int8,integer,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,34,Fwd Header Length,int32,integer,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,35,Bwd Header Length,int32,integer,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,36,Fwd Packets/s,float,floating,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,37,Bwd Packets/s,float,floating,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,38,Packet Length Min,int16,integer,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,39,Packet Length Max,int16,integer,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,40,Packet Length Mean,float,floating,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,41,Packet Length Std,float,floating,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,42,Packet Length Variance,float,floating,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,43,FIN Flag Count,int8,integer,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,44,SYN Flag Count,int8,integer,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,45,RST Flag Count,int8,integer,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,46,PSH Flag Count,int8,integer,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,47,ACK Flag Count,int8,integer,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,48,URG Flag Count,int8,integer,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,49,CWE Flag Count,int8,integer,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,50,ECE Flag Count,int8,integer,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,51,Down/Up Ratio,int16,integer,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,52,Avg Packet Size,float,floating,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,53,Avg Fwd Segment Size,float,floating,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,54,Avg Bwd Segment Size,float,floating,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,55,Fwd Avg Bytes/Bulk,int8,integer,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,56,Fwd Avg Packets/Bulk,int8,integer,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,57,Fwd Avg Bulk Rate,int8,integer,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,58,Bwd Avg Bytes/Bulk,int8,integer,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,59,Bwd Avg Packets/Bulk,int8,integer,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,60,Bwd Avg Bulk Rate,int8,integer,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,61,Subflow Fwd Packets,int32,integer,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,62,Subflow Fwd Bytes,int32,integer,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,63,Subflow Bwd Packets,int32,integer,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,64,Subflow Bwd Bytes,int32,integer,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,65,Init Fwd Win Bytes,int32,integer,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,66,Init Bwd Win Bytes,int32,integer,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,67,Fwd Act Data Packets,int16,integer,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,68,Fwd Seg Size Min,int8,integer,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,69,Active Mean,float,floating,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,70,Active Std,float,floating,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,71,Active Max,float,floating,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,72,Active Min,float,floating,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,73,Idle Mean,float,floating,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,74,Idle Std,float,floating,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,75,Idle Max,float,floating,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,76,Idle Min,float,floating,True
+Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet,77,Label,"dictionary<values=string, indices=int8, ordered=0>",other,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,0,Protocol,int8,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,1,Flow Duration,int64,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,2,Total Fwd Packets,int16,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,3,Total Backward Packets,int16,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,4,Fwd Packets Length Total,int32,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,5,Bwd Packets Length Total,int32,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,6,Fwd Packet Length Max,int32,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,7,Fwd Packet Length Min,int16,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,8,Fwd Packet Length Mean,float,floating,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,9,Fwd Packet Length Std,float,floating,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,10,Bwd Packet Length Max,int16,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,11,Bwd Packet Length Min,int16,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,12,Bwd Packet Length Mean,float,floating,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,13,Bwd Packet Length Std,float,floating,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,14,Flow Bytes/s,double,floating,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,15,Flow Packets/s,double,floating,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,16,Flow IAT Mean,float,floating,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,17,Flow IAT Std,float,floating,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,18,Flow IAT Max,int64,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,19,Flow IAT Min,int64,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,20,Fwd IAT Total,int64,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,21,Fwd IAT Mean,float,floating,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,22,Fwd IAT Std,float,floating,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,23,Fwd IAT Max,int64,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,24,Fwd IAT Min,int64,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,25,Bwd IAT Total,int32,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,26,Bwd IAT Mean,float,floating,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,27,Bwd IAT Std,float,floating,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,28,Bwd IAT Max,int32,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,29,Bwd IAT Min,int32,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,30,Fwd PSH Flags,int8,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,31,Bwd PSH Flags,int8,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,32,Fwd URG Flags,int8,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,33,Bwd URG Flags,int8,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,34,Fwd Header Length,int32,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,35,Bwd Header Length,int32,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,36,Fwd Packets/s,float,floating,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,37,Bwd Packets/s,float,floating,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,38,Packet Length Min,int16,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,39,Packet Length Max,int32,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,40,Packet Length Mean,float,floating,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,41,Packet Length Std,float,floating,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,42,Packet Length Variance,float,floating,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,43,FIN Flag Count,int8,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,44,SYN Flag Count,int8,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,45,RST Flag Count,int8,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,46,PSH Flag Count,int8,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,47,ACK Flag Count,int8,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,48,URG Flag Count,int8,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,49,CWE Flag Count,int8,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,50,ECE Flag Count,int8,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,51,Down/Up Ratio,int8,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,52,Avg Packet Size,float,floating,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,53,Avg Fwd Segment Size,float,floating,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,54,Avg Bwd Segment Size,float,floating,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,55,Fwd Avg Bytes/Bulk,int8,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,56,Fwd Avg Packets/Bulk,int8,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,57,Fwd Avg Bulk Rate,int8,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,58,Bwd Avg Bytes/Bulk,int8,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,59,Bwd Avg Packets/Bulk,int8,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,60,Bwd Avg Bulk Rate,int8,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,61,Subflow Fwd Packets,int16,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,62,Subflow Fwd Bytes,int32,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,63,Subflow Bwd Packets,int16,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,64,Subflow Bwd Bytes,int32,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,65,Init Fwd Win Bytes,int32,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,66,Init Bwd Win Bytes,int32,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,67,Fwd Act Data Packets,int16,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,68,Fwd Seg Size Min,int8,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,69,Active Mean,float,floating,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,70,Active Std,float,floating,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,71,Active Max,int32,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,72,Active Min,int32,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,73,Idle Mean,float,floating,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,74,Idle Std,float,floating,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,75,Idle Max,int64,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,76,Idle Min,int64,integer,True
+Bruteforce-Wednesday-14-02-2018_TrafficForML_CICFlowMeter.parquet,77,Label,"dictionary<values=string, indices=int8, ordered=0>",other,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,0,Protocol,int8,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,1,Flow Duration,int32,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,2,Total Fwd Packets,int32,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,3,Total Backward Packets,int16,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,4,Fwd Packets Length Total,int32,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,5,Bwd Packets Length Total,int32,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,6,Fwd Packet Length Max,int16,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,7,Fwd Packet Length Min,int16,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,8,Fwd Packet Length Mean,float,floating,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,9,Fwd Packet Length Std,float,floating,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,10,Bwd Packet Length Max,int16,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,11,Bwd Packet Length Min,int16,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,12,Bwd Packet Length Mean,float,floating,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,13,Bwd Packet Length Std,float,floating,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,14,Flow Bytes/s,double,floating,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,15,Flow Packets/s,double,floating,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,16,Flow IAT Mean,float,floating,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,17,Flow IAT Std,float,floating,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,18,Flow IAT Max,int32,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,19,Flow IAT Min,int32,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,20,Fwd IAT Total,int32,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,21,Fwd IAT Mean,float,floating,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,22,Fwd IAT Std,float,floating,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,23,Fwd IAT Max,int32,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,24,Fwd IAT Min,int32,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,25,Bwd IAT Total,int32,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,26,Bwd IAT Mean,float,floating,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,27,Bwd IAT Std,float,floating,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,28,Bwd IAT Max,int32,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,29,Bwd IAT Min,int32,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,30,Fwd PSH Flags,int8,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,31,Bwd PSH Flags,int8,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,32,Fwd URG Flags,int8,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,33,Bwd URG Flags,int8,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,34,Fwd Header Length,int32,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,35,Bwd Header Length,int32,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,36,Fwd Packets/s,float,floating,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,37,Bwd Packets/s,float,floating,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,38,Packet Length Min,int16,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,39,Packet Length Max,int16,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,40,Packet Length Mean,float,floating,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,41,Packet Length Std,float,floating,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,42,Packet Length Variance,float,floating,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,43,FIN Flag Count,int8,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,44,SYN Flag Count,int8,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,45,RST Flag Count,int8,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,46,PSH Flag Count,int8,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,47,ACK Flag Count,int8,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,48,URG Flag Count,int8,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,49,CWE Flag Count,int8,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,50,ECE Flag Count,int8,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,51,Down/Up Ratio,int8,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,52,Avg Packet Size,float,floating,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,53,Avg Fwd Segment Size,float,floating,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,54,Avg Bwd Segment Size,float,floating,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,55,Fwd Avg Bytes/Bulk,int8,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,56,Fwd Avg Packets/Bulk,int8,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,57,Fwd Avg Bulk Rate,int8,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,58,Bwd Avg Bytes/Bulk,int8,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,59,Bwd Avg Packets/Bulk,int8,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,60,Bwd Avg Bulk Rate,int8,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,61,Subflow Fwd Packets,int32,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,62,Subflow Fwd Bytes,int32,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,63,Subflow Bwd Packets,int16,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,64,Subflow Bwd Bytes,int32,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,65,Init Fwd Win Bytes,int32,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,66,Init Bwd Win Bytes,int32,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,67,Fwd Act Data Packets,int32,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,68,Fwd Seg Size Min,int8,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,69,Active Mean,float,floating,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,70,Active Std,float,floating,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,71,Active Max,int32,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,72,Active Min,int32,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,73,Idle Mean,float,floating,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,74,Idle Std,float,floating,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,75,Idle Max,int32,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,76,Idle Min,int32,integer,True
+DDoS1-Tuesday-20-02-2018_TrafficForML_CICFlowMeter.parquet,77,Label,"dictionary<values=string, indices=int8, ordered=0>",other,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,0,Protocol,int8,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,1,Flow Duration,int32,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,2,Total Fwd Packets,int32,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,3,Total Backward Packets,int8,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,4,Fwd Packets Length Total,int32,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,5,Bwd Packets Length Total,int16,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,6,Fwd Packet Length Max,int16,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,7,Fwd Packet Length Min,int16,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,8,Fwd Packet Length Mean,float,floating,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,9,Fwd Packet Length Std,float,floating,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,10,Bwd Packet Length Max,int16,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,11,Bwd Packet Length Min,int16,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,12,Bwd Packet Length Mean,float,floating,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,13,Bwd Packet Length Std,float,floating,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,14,Flow Bytes/s,float,floating,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,15,Flow Packets/s,float,floating,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,16,Flow IAT Mean,float,floating,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,17,Flow IAT Std,float,floating,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,18,Flow IAT Max,int32,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,19,Flow IAT Min,int32,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,20,Fwd IAT Total,int32,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,21,Fwd IAT Mean,float,floating,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,22,Fwd IAT Std,float,floating,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,23,Fwd IAT Max,int32,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,24,Fwd IAT Min,int32,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,25,Bwd IAT Total,int32,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,26,Bwd IAT Mean,float,floating,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,27,Bwd IAT Std,float,floating,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,28,Bwd IAT Max,int32,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,29,Bwd IAT Min,int32,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,30,Fwd PSH Flags,int8,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,31,Bwd PSH Flags,int8,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,32,Fwd URG Flags,int8,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,33,Bwd URG Flags,int8,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,34,Fwd Header Length,int32,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,35,Bwd Header Length,int16,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,36,Fwd Packets/s,float,floating,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,37,Bwd Packets/s,float,floating,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,38,Packet Length Min,int16,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,39,Packet Length Max,int16,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,40,Packet Length Mean,float,floating,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,41,Packet Length Std,float,floating,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,42,Packet Length Variance,float,floating,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,43,FIN Flag Count,int8,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,44,SYN Flag Count,int8,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,45,RST Flag Count,int8,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,46,PSH Flag Count,int8,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,47,ACK Flag Count,int8,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,48,URG Flag Count,int8,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,49,CWE Flag Count,int8,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,50,ECE Flag Count,int8,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,51,Down/Up Ratio,int8,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,52,Avg Packet Size,float,floating,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,53,Avg Fwd Segment Size,float,floating,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,54,Avg Bwd Segment Size,float,floating,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,55,Fwd Avg Bytes/Bulk,int8,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,56,Fwd Avg Packets/Bulk,int8,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,57,Fwd Avg Bulk Rate,int8,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,58,Bwd Avg Bytes/Bulk,int8,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,59,Bwd Avg Packets/Bulk,int8,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,60,Bwd Avg Bulk Rate,int8,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,61,Subflow Fwd Packets,int32,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,62,Subflow Fwd Bytes,int32,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,63,Subflow Bwd Packets,int8,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,64,Subflow Bwd Bytes,int16,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,65,Init Fwd Win Bytes,int32,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,66,Init Bwd Win Bytes,int32,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,67,Fwd Act Data Packets,int32,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,68,Fwd Seg Size Min,int8,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,69,Active Mean,float,floating,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,70,Active Std,float,floating,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,71,Active Max,int32,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,72,Active Min,int32,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,73,Idle Mean,float,floating,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,74,Idle Std,float,floating,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,75,Idle Max,int32,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,76,Idle Min,int32,integer,True
+DDoS2-Wednesday-21-02-2018_TrafficForML_CICFlowMeter.parquet,77,Label,"dictionary<values=string, indices=int8, ordered=0>",other,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,0,Protocol,int8,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,1,Flow Duration,int32,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,2,Total Fwd Packets,int16,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,3,Total Backward Packets,int16,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,4,Fwd Packets Length Total,int32,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,5,Bwd Packets Length Total,int32,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,6,Fwd Packet Length Max,int32,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,7,Fwd Packet Length Min,int16,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,8,Fwd Packet Length Mean,float,floating,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,9,Fwd Packet Length Std,float,floating,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,10,Bwd Packet Length Max,int16,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,11,Bwd Packet Length Min,int16,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,12,Bwd Packet Length Mean,float,floating,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,13,Bwd Packet Length Std,float,floating,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,14,Flow Bytes/s,double,floating,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,15,Flow Packets/s,double,floating,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,16,Flow IAT Mean,float,floating,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,17,Flow IAT Std,float,floating,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,18,Flow IAT Max,int32,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,19,Flow IAT Min,int32,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,20,Fwd IAT Total,int32,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,21,Fwd IAT Mean,float,floating,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,22,Fwd IAT Std,float,floating,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,23,Fwd IAT Max,int32,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,24,Fwd IAT Min,int32,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,25,Bwd IAT Total,int32,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,26,Bwd IAT Mean,float,floating,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,27,Bwd IAT Std,float,floating,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,28,Bwd IAT Max,int32,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,29,Bwd IAT Min,int32,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,30,Fwd PSH Flags,int8,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,31,Bwd PSH Flags,int8,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,32,Fwd URG Flags,int8,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,33,Bwd URG Flags,int8,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,34,Fwd Header Length,int32,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,35,Bwd Header Length,int32,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,36,Fwd Packets/s,float,floating,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,37,Bwd Packets/s,float,floating,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,38,Packet Length Min,int16,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,39,Packet Length Max,int32,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,40,Packet Length Mean,float,floating,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,41,Packet Length Std,float,floating,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,42,Packet Length Variance,float,floating,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,43,FIN Flag Count,int8,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,44,SYN Flag Count,int8,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,45,RST Flag Count,int8,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,46,PSH Flag Count,int8,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,47,ACK Flag Count,int8,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,48,URG Flag Count,int8,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,49,CWE Flag Count,int8,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,50,ECE Flag Count,int8,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,51,Down/Up Ratio,int8,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,52,Avg Packet Size,float,floating,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,53,Avg Fwd Segment Size,float,floating,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,54,Avg Bwd Segment Size,float,floating,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,55,Fwd Avg Bytes/Bulk,int8,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,56,Fwd Avg Packets/Bulk,int8,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,57,Fwd Avg Bulk Rate,int8,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,58,Bwd Avg Bytes/Bulk,int8,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,59,Bwd Avg Packets/Bulk,int8,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,60,Bwd Avg Bulk Rate,int8,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,61,Subflow Fwd Packets,int16,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,62,Subflow Fwd Bytes,int32,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,63,Subflow Bwd Packets,int16,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,64,Subflow Bwd Bytes,int32,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,65,Init Fwd Win Bytes,int32,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,66,Init Bwd Win Bytes,int32,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,67,Fwd Act Data Packets,int16,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,68,Fwd Seg Size Min,int8,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,69,Active Mean,float,floating,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,70,Active Std,float,floating,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,71,Active Max,int32,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,72,Active Min,int32,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,73,Idle Mean,float,floating,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,74,Idle Std,float,floating,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,75,Idle Max,int32,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,76,Idle Min,int32,integer,True
+DoS1-Thursday-15-02-2018_TrafficForML_CICFlowMeter.parquet,77,Label,"dictionary<values=string, indices=int8, ordered=0>",other,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,0,Protocol,int8,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,1,Flow Duration,int32,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,2,Total Fwd Packets,int16,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,3,Total Backward Packets,int16,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,4,Fwd Packets Length Total,int16,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,5,Bwd Packets Length Total,int32,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,6,Fwd Packet Length Max,int16,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,7,Fwd Packet Length Min,int16,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,8,Fwd Packet Length Mean,float,floating,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,9,Fwd Packet Length Std,float,floating,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,10,Bwd Packet Length Max,int16,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,11,Bwd Packet Length Min,int16,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,12,Bwd Packet Length Mean,float,floating,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,13,Bwd Packet Length Std,float,floating,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,14,Flow Bytes/s,float,floating,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,15,Flow Packets/s,float,floating,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,16,Flow IAT Mean,float,floating,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,17,Flow IAT Std,float,floating,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,18,Flow IAT Max,int32,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,19,Flow IAT Min,int32,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,20,Fwd IAT Total,int32,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,21,Fwd IAT Mean,float,floating,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,22,Fwd IAT Std,float,floating,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,23,Fwd IAT Max,int32,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,24,Fwd IAT Min,int32,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,25,Bwd IAT Total,int32,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,26,Bwd IAT Mean,float,floating,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,27,Bwd IAT Std,float,floating,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,28,Bwd IAT Max,int32,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,29,Bwd IAT Min,int32,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,30,Fwd PSH Flags,int8,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,31,Bwd PSH Flags,int8,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,32,Fwd URG Flags,int8,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,33,Bwd URG Flags,int8,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,34,Fwd Header Length,int16,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,35,Bwd Header Length,int16,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,36,Fwd Packets/s,float,floating,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,37,Bwd Packets/s,float,floating,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,38,Packet Length Min,int16,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,39,Packet Length Max,int16,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,40,Packet Length Mean,float,floating,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,41,Packet Length Std,float,floating,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,42,Packet Length Variance,float,floating,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,43,FIN Flag Count,int8,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,44,SYN Flag Count,int8,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,45,RST Flag Count,int8,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,46,PSH Flag Count,int8,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,47,ACK Flag Count,int8,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,48,URG Flag Count,int8,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,49,CWE Flag Count,int8,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,50,ECE Flag Count,int8,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,51,Down/Up Ratio,int8,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,52,Avg Packet Size,float,floating,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,53,Avg Fwd Segment Size,float,floating,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,54,Avg Bwd Segment Size,float,floating,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,55,Fwd Avg Bytes/Bulk,int8,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,56,Fwd Avg Packets/Bulk,int8,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,57,Fwd Avg Bulk Rate,int8,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,58,Bwd Avg Bytes/Bulk,int8,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,59,Bwd Avg Packets/Bulk,int8,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,60,Bwd Avg Bulk Rate,int8,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,61,Subflow Fwd Packets,int16,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,62,Subflow Fwd Bytes,int16,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,63,Subflow Bwd Packets,int16,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,64,Subflow Bwd Bytes,int32,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,65,Init Fwd Win Bytes,int32,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,66,Init Bwd Win Bytes,int16,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,67,Fwd Act Data Packets,int16,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,68,Fwd Seg Size Min,int8,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,69,Active Mean,float,floating,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,70,Active Std,float,floating,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,71,Active Max,int32,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,72,Active Min,int32,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,73,Idle Mean,float,floating,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,74,Idle Std,float,floating,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,75,Idle Max,int32,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,76,Idle Min,int32,integer,True
+DoS2-Friday-16-02-2018_TrafficForML_CICFlowMeter.parquet,77,Label,"dictionary<values=string, indices=int8, ordered=0>",other,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,0,Protocol,int8,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,1,Flow Duration,int32,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,2,Total Fwd Packets,int32,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,3,Total Backward Packets,int32,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,4,Fwd Packets Length Total,int32,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,5,Bwd Packets Length Total,int32,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,6,Fwd Packet Length Max,int16,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,7,Fwd Packet Length Min,int16,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,8,Fwd Packet Length Mean,float,floating,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,9,Fwd Packet Length Std,float,floating,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,10,Bwd Packet Length Max,int16,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,11,Bwd Packet Length Min,int16,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,12,Bwd Packet Length Mean,float,floating,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,13,Bwd Packet Length Std,float,floating,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,14,Flow Bytes/s,double,floating,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,15,Flow Packets/s,double,floating,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,16,Flow IAT Mean,float,floating,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,17,Flow IAT Std,float,floating,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,18,Flow IAT Max,int32,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,19,Flow IAT Min,int32,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,20,Fwd IAT Total,int32,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,21,Fwd IAT Mean,float,floating,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,22,Fwd IAT Std,float,floating,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,23,Fwd IAT Max,int32,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,24,Fwd IAT Min,int32,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,25,Bwd IAT Total,int32,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,26,Bwd IAT Mean,float,floating,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,27,Bwd IAT Std,float,floating,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,28,Bwd IAT Max,int32,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,29,Bwd IAT Min,int32,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,30,Fwd PSH Flags,int8,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,31,Bwd PSH Flags,int8,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,32,Fwd URG Flags,int8,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,33,Bwd URG Flags,int8,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,34,Fwd Header Length,int32,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,35,Bwd Header Length,int32,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,36,Fwd Packets/s,float,floating,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,37,Bwd Packets/s,float,floating,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,38,Packet Length Min,int16,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,39,Packet Length Max,int16,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,40,Packet Length Mean,float,floating,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,41,Packet Length Std,float,floating,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,42,Packet Length Variance,float,floating,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,43,FIN Flag Count,int8,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,44,SYN Flag Count,int8,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,45,RST Flag Count,int8,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,46,PSH Flag Count,int8,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,47,ACK Flag Count,int8,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,48,URG Flag Count,int8,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,49,CWE Flag Count,int8,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,50,ECE Flag Count,int8,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,51,Down/Up Ratio,int16,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,52,Avg Packet Size,float,floating,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,53,Avg Fwd Segment Size,float,floating,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,54,Avg Bwd Segment Size,float,floating,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,55,Fwd Avg Bytes/Bulk,int8,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,56,Fwd Avg Packets/Bulk,int8,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,57,Fwd Avg Bulk Rate,int8,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,58,Bwd Avg Bytes/Bulk,int8,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,59,Bwd Avg Packets/Bulk,int8,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,60,Bwd Avg Bulk Rate,int8,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,61,Subflow Fwd Packets,int32,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,62,Subflow Fwd Bytes,int32,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,63,Subflow Bwd Packets,int32,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,64,Subflow Bwd Bytes,int32,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,65,Init Fwd Win Bytes,int32,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,66,Init Bwd Win Bytes,int32,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,67,Fwd Act Data Packets,int32,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,68,Fwd Seg Size Min,int8,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,69,Active Mean,float,floating,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,70,Active Std,float,floating,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,71,Active Max,int32,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,72,Active Min,int32,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,73,Idle Mean,float,floating,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,74,Idle Std,float,floating,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,75,Idle Max,int32,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,76,Idle Min,int32,integer,True
+Infil1-Wednesday-28-02-2018_TrafficForML_CICFlowMeter.parquet,77,Label,"dictionary<values=string, indices=int8, ordered=0>",other,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,0,Protocol,int8,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,1,Flow Duration,int32,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,2,Total Fwd Packets,int16,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,3,Total Backward Packets,int32,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,4,Fwd Packets Length Total,int32,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,5,Bwd Packets Length Total,int32,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,6,Fwd Packet Length Max,int16,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,7,Fwd Packet Length Min,int16,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,8,Fwd Packet Length Mean,float,floating,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,9,Fwd Packet Length Std,float,floating,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,10,Bwd Packet Length Max,int32,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,11,Bwd Packet Length Min,int16,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,12,Bwd Packet Length Mean,float,floating,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,13,Bwd Packet Length Std,float,floating,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,14,Flow Bytes/s,double,floating,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,15,Flow Packets/s,double,floating,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,16,Flow IAT Mean,float,floating,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,17,Flow IAT Std,float,floating,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,18,Flow IAT Max,int32,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,19,Flow IAT Min,int32,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,20,Fwd IAT Total,int32,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,21,Fwd IAT Mean,float,floating,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,22,Fwd IAT Std,float,floating,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,23,Fwd IAT Max,int32,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,24,Fwd IAT Min,int32,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,25,Bwd IAT Total,int32,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,26,Bwd IAT Mean,float,floating,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,27,Bwd IAT Std,float,floating,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,28,Bwd IAT Max,int32,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,29,Bwd IAT Min,int32,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,30,Fwd PSH Flags,int8,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,31,Bwd PSH Flags,int8,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,32,Fwd URG Flags,int8,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,33,Bwd URG Flags,int8,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,34,Fwd Header Length,int32,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,35,Bwd Header Length,int32,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,36,Fwd Packets/s,float,floating,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,37,Bwd Packets/s,float,floating,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,38,Packet Length Min,int16,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,39,Packet Length Max,int32,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,40,Packet Length Mean,float,floating,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,41,Packet Length Std,float,floating,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,42,Packet Length Variance,float,floating,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,43,FIN Flag Count,int8,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,44,SYN Flag Count,int8,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,45,RST Flag Count,int8,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,46,PSH Flag Count,int8,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,47,ACK Flag Count,int8,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,48,URG Flag Count,int8,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,49,CWE Flag Count,int8,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,50,ECE Flag Count,int8,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,51,Down/Up Ratio,int16,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,52,Avg Packet Size,float,floating,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,53,Avg Fwd Segment Size,float,floating,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,54,Avg Bwd Segment Size,float,floating,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,55,Fwd Avg Bytes/Bulk,int8,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,56,Fwd Avg Packets/Bulk,int8,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,57,Fwd Avg Bulk Rate,int8,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,58,Bwd Avg Bytes/Bulk,int8,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,59,Bwd Avg Packets/Bulk,int8,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,60,Bwd Avg Bulk Rate,int8,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,61,Subflow Fwd Packets,int16,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,62,Subflow Fwd Bytes,int32,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,63,Subflow Bwd Packets,int32,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,64,Subflow Bwd Bytes,int32,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,65,Init Fwd Win Bytes,int32,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,66,Init Bwd Win Bytes,int32,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,67,Fwd Act Data Packets,int16,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,68,Fwd Seg Size Min,int8,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,69,Active Mean,float,floating,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,70,Active Std,float,floating,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,71,Active Max,int32,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,72,Active Min,int32,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,73,Idle Mean,float,floating,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,74,Idle Std,float,floating,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,75,Idle Max,int32,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,76,Idle Min,int32,integer,True
+Infil2-Thursday-01-03-2018_TrafficForML_CICFlowMeter.parquet,77,Label,"dictionary<values=string, indices=int8, ordered=0>",other,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,0,Protocol,int8,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,1,Flow Duration,int64,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,2,Total Fwd Packets,int16,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,3,Total Backward Packets,int32,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,4,Fwd Packets Length Total,int32,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,5,Bwd Packets Length Total,int32,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,6,Fwd Packet Length Max,int16,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,7,Fwd Packet Length Min,int16,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,8,Fwd Packet Length Mean,float,floating,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,9,Fwd Packet Length Std,float,floating,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,10,Bwd Packet Length Max,int16,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,11,Bwd Packet Length Min,int16,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,12,Bwd Packet Length Mean,float,floating,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,13,Bwd Packet Length Std,float,floating,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,14,Flow Bytes/s,double,floating,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,15,Flow Packets/s,double,floating,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,16,Flow IAT Mean,float,floating,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,17,Flow IAT Std,float,floating,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,18,Flow IAT Max,int64,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,19,Flow IAT Min,int64,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,20,Fwd IAT Total,int64,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,21,Fwd IAT Mean,float,floating,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,22,Fwd IAT Std,float,floating,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,23,Fwd IAT Max,int64,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,24,Fwd IAT Min,int64,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,25,Bwd IAT Total,int32,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,26,Bwd IAT Mean,float,floating,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,27,Bwd IAT Std,float,floating,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,28,Bwd IAT Max,int32,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,29,Bwd IAT Min,int32,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,30,Fwd PSH Flags,int8,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,31,Bwd PSH Flags,int8,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,32,Fwd URG Flags,int8,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,33,Bwd URG Flags,int8,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,34,Fwd Header Length,int32,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,35,Bwd Header Length,int32,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,36,Fwd Packets/s,float,floating,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,37,Bwd Packets/s,float,floating,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,38,Packet Length Min,int16,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,39,Packet Length Max,int16,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,40,Packet Length Mean,float,floating,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,41,Packet Length Std,float,floating,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,42,Packet Length Variance,float,floating,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,43,FIN Flag Count,int8,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,44,SYN Flag Count,int8,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,45,RST Flag Count,int8,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,46,PSH Flag Count,int8,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,47,ACK Flag Count,int8,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,48,URG Flag Count,int8,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,49,CWE Flag Count,int8,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,50,ECE Flag Count,int8,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,51,Down/Up Ratio,int8,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,52,Avg Packet Size,float,floating,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,53,Avg Fwd Segment Size,float,floating,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,54,Avg Bwd Segment Size,float,floating,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,55,Fwd Avg Bytes/Bulk,int8,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,56,Fwd Avg Packets/Bulk,int8,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,57,Fwd Avg Bulk Rate,int8,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,58,Bwd Avg Bytes/Bulk,int8,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,59,Bwd Avg Packets/Bulk,int8,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,60,Bwd Avg Bulk Rate,int8,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,61,Subflow Fwd Packets,int16,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,62,Subflow Fwd Bytes,int32,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,63,Subflow Bwd Packets,int32,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,64,Subflow Bwd Bytes,int32,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,65,Init Fwd Win Bytes,int32,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,66,Init Bwd Win Bytes,int32,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,67,Fwd Act Data Packets,int16,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,68,Fwd Seg Size Min,int8,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,69,Active Mean,float,floating,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,70,Active Std,float,floating,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,71,Active Max,int32,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,72,Active Min,int32,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,73,Idle Mean,float,floating,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,74,Idle Std,float,floating,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,75,Idle Max,int64,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,76,Idle Min,int64,integer,True
+Web1-Thursday-22-02-2018_TrafficForML_CICFlowMeter.parquet,77,Label,"dictionary<values=string, indices=int8, ordered=0>",other,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,0,Protocol,int8,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,1,Flow Duration,int32,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,2,Total Fwd Packets,int32,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,3,Total Backward Packets,int32,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,4,Fwd Packets Length Total,int32,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,5,Bwd Packets Length Total,int32,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,6,Fwd Packet Length Max,int16,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,7,Fwd Packet Length Min,int16,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,8,Fwd Packet Length Mean,float,floating,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,9,Fwd Packet Length Std,float,floating,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,10,Bwd Packet Length Max,int16,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,11,Bwd Packet Length Min,int16,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,12,Bwd Packet Length Mean,float,floating,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,13,Bwd Packet Length Std,float,floating,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,14,Flow Bytes/s,double,floating,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,15,Flow Packets/s,double,floating,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,16,Flow IAT Mean,float,floating,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,17,Flow IAT Std,float,floating,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,18,Flow IAT Max,int32,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,19,Flow IAT Min,int32,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,20,Fwd IAT Total,int32,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,21,Fwd IAT Mean,float,floating,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,22,Fwd IAT Std,float,floating,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,23,Fwd IAT Max,int32,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,24,Fwd IAT Min,int32,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,25,Bwd IAT Total,int32,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,26,Bwd IAT Mean,float,floating,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,27,Bwd IAT Std,float,floating,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,28,Bwd IAT Max,int32,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,29,Bwd IAT Min,int32,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,30,Fwd PSH Flags,int8,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,31,Bwd PSH Flags,int8,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,32,Fwd URG Flags,int8,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,33,Bwd URG Flags,int8,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,34,Fwd Header Length,int32,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,35,Bwd Header Length,int32,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,36,Fwd Packets/s,float,floating,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,37,Bwd Packets/s,float,floating,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,38,Packet Length Min,int16,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,39,Packet Length Max,int16,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,40,Packet Length Mean,float,floating,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,41,Packet Length Std,float,floating,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,42,Packet Length Variance,float,floating,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,43,FIN Flag Count,int8,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,44,SYN Flag Count,int8,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,45,RST Flag Count,int8,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,46,PSH Flag Count,int8,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,47,ACK Flag Count,int8,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,48,URG Flag Count,int8,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,49,CWE Flag Count,int8,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,50,ECE Flag Count,int8,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,51,Down/Up Ratio,int8,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,52,Avg Packet Size,float,floating,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,53,Avg Fwd Segment Size,float,floating,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,54,Avg Bwd Segment Size,float,floating,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,55,Fwd Avg Bytes/Bulk,int8,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,56,Fwd Avg Packets/Bulk,int8,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,57,Fwd Avg Bulk Rate,int8,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,58,Bwd Avg Bytes/Bulk,int8,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,59,Bwd Avg Packets/Bulk,int8,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,60,Bwd Avg Bulk Rate,int8,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,61,Subflow Fwd Packets,int32,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,62,Subflow Fwd Bytes,int32,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,63,Subflow Bwd Packets,int32,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,64,Subflow Bwd Bytes,int32,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,65,Init Fwd Win Bytes,int32,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,66,Init Bwd Win Bytes,int32,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,67,Fwd Act Data Packets,int16,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,68,Fwd Seg Size Min,int8,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,69,Active Mean,float,floating,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,70,Active Std,float,floating,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,71,Active Max,int32,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,72,Active Min,int32,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,73,Idle Mean,float,floating,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,74,Idle Std,float,floating,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,75,Idle Max,int32,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,76,Idle Min,int32,integer,True
+Web2-Friday-23-02-2018_TrafficForML_CICFlowMeter.parquet,77,Label,"dictionary<values=string, indices=int8, ordered=0>",other,True

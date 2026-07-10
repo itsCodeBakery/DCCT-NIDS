@@ -1,0 +1,79 @@
+column_position,column_name,canonical_type,nullable
+0,Protocol,int64,True
+1,Flow Duration,int64,True
+2,Total Fwd Packets,int64,True
+3,Total Backward Packets,int64,True
+4,Fwd Packets Length Total,int64,True
+5,Bwd Packets Length Total,double,True
+6,Fwd Packet Length Max,int64,True
+7,Fwd Packet Length Min,int64,True
+8,Fwd Packet Length Mean,double,True
+9,Fwd Packet Length Std,double,True
+10,Bwd Packet Length Max,int64,True
+11,Bwd Packet Length Min,int64,True
+12,Bwd Packet Length Mean,double,True
+13,Bwd Packet Length Std,double,True
+14,Flow Bytes/s,double,True
+15,Flow Packets/s,double,True
+16,Flow IAT Mean,double,True
+17,Flow IAT Std,double,True
+18,Flow IAT Max,double,True
+19,Flow IAT Min,double,True
+20,Fwd IAT Total,double,True
+21,Fwd IAT Mean,double,True
+22,Fwd IAT Std,double,True
+23,Fwd IAT Max,double,True
+24,Fwd IAT Min,double,True
+25,Bwd IAT Total,double,True
+26,Bwd IAT Mean,double,True
+27,Bwd IAT Std,double,True
+28,Bwd IAT Max,double,True
+29,Bwd IAT Min,double,True
+30,Fwd PSH Flags,int64,True
+31,Bwd PSH Flags,int64,True
+32,Fwd URG Flags,int64,True
+33,Bwd URG Flags,int64,True
+34,Fwd Header Length,int64,True
+35,Bwd Header Length,int64,True
+36,Fwd Packets/s,double,True
+37,Bwd Packets/s,double,True
+38,Packet Length Min,int64,True
+39,Packet Length Max,int64,True
+40,Packet Length Mean,double,True
+41,Packet Length Std,double,True
+42,Packet Length Variance,double,True
+43,FIN Flag Count,int64,True
+44,SYN Flag Count,int64,True
+45,RST Flag Count,int64,True
+46,PSH Flag Count,int64,True
+47,ACK Flag Count,int64,True
+48,URG Flag Count,int64,True
+49,CWE Flag Count,int64,True
+50,ECE Flag Count,int64,True
+51,Down/Up Ratio,int64,True
+52,Avg Packet Size,double,True
+53,Avg Fwd Segment Size,double,True
+54,Avg Bwd Segment Size,double,True
+55,Fwd Avg Bytes/Bulk,int64,True
+56,Fwd Avg Packets/Bulk,int64,True
+57,Fwd Avg Bulk Rate,int64,True
+58,Bwd Avg Bytes/Bulk,int64,True
+59,Bwd Avg Packets/Bulk,int64,True
+60,Bwd Avg Bulk Rate,int64,True
+61,Subflow Fwd Packets,int64,True
+62,Subflow Fwd Bytes,int64,True
+63,Subflow Bwd Packets,int64,True
+64,Subflow Bwd Bytes,int64,True
+65,Init Fwd Win Bytes,int64,True
+66,Init Bwd Win Bytes,int64,True
+67,Fwd Act Data Packets,int64,True
+68,Fwd Seg Size Min,int64,True
+69,Active Mean,double,True
+70,Active Std,double,True
+71,Active Max,double,True
+72,Active Min,double,True
+73,Idle Mean,double,True
+74,Idle Std,double,True
+75,Idle Max,double,True
+76,Idle Min,double,True
+77,Label,"dictionary<values=string, indices=int8, ordered=0>",True

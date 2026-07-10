@@ -1,0 +1,525 @@
+{
+  "dataset": "CSE-CIC-IDS2018",
+  "dataset_root": "/kaggle/input/datasets/dhoogla/csecicids2018",
+  "created_at_utc": "2026-07-10T05:46:46.454471+00:00",
+  "reference_file": "Botnet-Friday-02-03-2018_TrafficForML_CICFlowMeter.parquet",
+  "column_count": 78,
+  "policy": {
+    "integer_only": "int64",
+    "mixed_numeric": "float64",
+    "string_or_binary": "string",
+    "temporal": "timestamp[ns]",
+    "nullable": true
+  },
+  "columns": [
+    {
+      "column_position": 0,
+      "column_name": "Protocol",
+      "canonical_type": "int64",
+      "nullable": true
+    },
+    {
+      "column_position": 1,
+      "column_name": "Flow Duration",
+      "canonical_type": "int64",
+      "nullable": true
+    },
+    {
+      "column_position": 2,
+      "column_name": "Total Fwd Packets",
+      "canonical_type": "int64",
+      "nullable": true
+    },
+    {
+      "column_position": 3,
+      "column_name": "Total Backward Packets",
+      "canonical_type": "int64",
+      "nullable": true
+    },
+    {
+      "column_position": 4,
+      "column_name": "Fwd Packets Length Total",
+      "canonical_type": "int64",
+      "nullable": true
+    },
+    {
+      "column_position": 5,
+      "column_name": "Bwd Packets Length Total",
+      "canonical_type": "double",
+      "nullable": true
+    },
+    {
+      "column_position": 6,
+      "column_name": "Fwd Packet Length Max",
+      "canonical_type": "int64",
+      "nullable": true
+    },
+    {
+      "column_position": 7,
+      "column_name": "Fwd Packet Length Min",
+      "canonical_type": "int64",
+      "nullable": true
+    },
+    {
+      "column_position": 8,
+      "column_name": "Fwd Packet Length Mean",
+      "canonical_type": "double",
+      "nullable": true
+    },
+    {
+      "column_position": 9,
+      "column_name": "Fwd Packet Length Std",
+      "canonical_type": "double",
+      "nullable": true
+    },
+    {
+      "column_position": 10,
+      "column_name": "Bwd Packet Length Max",
+      "canonical_type": "int64",
+      "nullable": true
+    },
+    {
+      "column_position": 11,
+      "column_name": "Bwd Packet Length Min",
+      "canonical_type": "int64",
+      "nullable": true
+    },
+    {
+      "column_position": 12,
+      "column_name": "Bwd Packet Length Mean",
+      "canonical_type": "double",
+      "nullable": true
+    },
+    {
+      "column_position": 13,
+      "column_name": "Bwd Packet Length Std",
+      "canonical_type": "double",
+      "nullable": true
+    },
+    {
+      "column_position": 14,
+      "column_name": "Flow Bytes/s",
+      "canonical_type": "double",
+      "nullable": true
+    },
+    {
+      "column_position": 15,
+      "column_name": "Flow Packets/s",
+      "canonical_type": "double",
+      "nullable": true
+    },
+    {
+      "column_position": 16,
+      "column_name": "Flow IAT Mean",
+      "canonical_type": "double",
+      "nullable": true
+    },
+    {
+      "column_position": 17,
+      "column_name": "Flow IAT Std",
+      "canonical_type": "double",
+      "nullable": true
+    },
+    {
+      "column_position": 18,
+      "column_name": "Flow IAT Max",
+      "canonical_type": "double",
+      "nullable": true
+    },
+    {
+      "column_position": 19,
+      "column_name": "Flow IAT Min",
+      "canonical_type": "double",
+      "nullable": true
+    },
+    {
+      "column_position": 20,
+      "column_name": "Fwd IAT Total",
+      "canonical_type": "double",
+      "nullable": true
+    },
+    {
+      "column_position": 21,
+      "column_name": "Fwd IAT Mean",
+      "canonical_type": "double",
+      "nullable": true
+    },
+    {
+      "column_position": 22,
+      "column_name": "Fwd IAT Std",
+      "canonical_type": "double",
+      "nullable": true
+    },
+    {
+      "column_position": 23,
+      "column_name": "Fwd IAT Max",
+      "canonical_type": "double",
+      "nullable": true
+    },
+    {
+      "column_position": 24,
+      "column_name": "Fwd IAT Min",
+      "canonical_type": "double",
+      "nullable": true
+    },
+    {
+      "column_position": 25,
+      "column_name": "Bwd IAT Total",
+      "canonical_type": "double",
+      "nullable": true
+    },
+    {
+      "column_position": 26,
+      "column_name": "Bwd IAT Mean",
+      "canonical_type": "double",
+      "nullable": true
+    },
+    {
+      "column_position": 27,
+      "column_name": "Bwd IAT Std",
+      "canonical_type": "double",
+      "nullable": true
+    },
+    {
+      "column_position": 28,
+      "column_name": "Bwd IAT Max",
+      "canonical_type": "double",
+      "nullable": true
+    },
+    {
+      "column_position": 29,
+      "column_name": "Bwd IAT Min",
+      "canonical_type": "double",
+      "nullable": true
+    },
+    {
+      "column_position": 30,
+      "column_name": "Fwd PSH Flags",
+      "canonical_type": "int64",
+      "nullable": true
+    },
+    {
+      "column_position": 31,
+      "column_name": "Bwd PSH Flags",
+      "canonical_type": "int64",
+      "nullable": true
+    },
+    {
+      "column_position": 32,
+      "column_name": "Fwd URG Flags",
+      "canonical_type": "int64",
+      "nullable": true
+    },
+    {
+      "column_position": 33,
+      "column_name": "Bwd URG Flags",
+      "canonical_type": "int64",
+      "nullable": true
+    },
+    {
+      "column_position": 34,
+      "column_name": "Fwd Header Length",
+      "canonical_type": "int64",
+      "nullable": true
+    },
+    {
+      "column_position": 35,
+      "column_name": "Bwd Header Length",
+      "canonical_type": "int64",
+      "nullable": true
+    },
+    {
+      "column_position": 36,
+      "column_name": "Fwd Packets/s",
+      "canonical_type": "double",
+      "nullable": true
+    },
+    {
+      "column_position": 37,
+      "column_name": "Bwd Packets/s",
+      "canonical_type": "double",
+      "nullable": true
+    },
+    {
+      "column_position": 38,
+      "column_name": "Packet Length Min",
+      "canonical_type": "int64",
+      "nullable": true
+    },
+    {
+      "column_position": 39,
+      "column_name": "Packet Length Max",
+      "canonical_type": "int64",
+      "nullable": true
+    },
+    {
+      "column_position": 40,
+      "column_name": "Packet Length Mean",
+      "canonical_type": "double",
+      "nullable": true
+    },
+    {
+      "column_position": 41,
+      "column_name": "Packet Length Std",
+      "canonical_type": "double",
+      "nullable": true
+    },
+    {
+      "column_position": 42,
+      "column_name": "Packet Length Variance",
+      "canonical_type": "double",
+      "nullable": true
+    },
+    {
+      "column_position": 43,
+      "column_name": "FIN Flag Count",
+      "canonical_type": "int64",
+      "nullable": true
+    },
+    {
+      "column_position": 44,
+      "column_name": "SYN Flag Count",
+      "canonical_type": "int64",
+      "nullable": true
+    },
+    {
+      "column_position": 45,
+      "column_name": "RST Flag Count",
+      "canonical_type": "int64",
+      "nullable": true
+    },
+    {
+      "column_position": 46,
+      "column_name": "PSH Flag Count",
+      "canonical_type": "int64",
+      "nullable": true
+    },
+    {
+      "column_position": 47,
+      "column_name": "ACK Flag Count",
+      "canonical_type": "int64",
+      "nullable": true
+    },
+    {
+      "column_position": 48,
+      "column_name": "URG Flag Count",
+      "canonical_type": "int64",
+      "nullable": true
+    },
+    {
+      "column_position": 49,
+      "column_name": "CWE Flag Count",
+      "canonical_type": "int64",
+      "nullable": true
+    },
+    {
+      "column_position": 50,
+      "column_name": "ECE Flag Count",
+      "canonical_type": "int64",
+      "nullable": true
+    },
+    {
+      "column_position": 51,
+      "column_name": "Down/Up Ratio",
+      "canonical_type": "int64",
+      "nullable": true
+    },
+    {
+      "column_position": 52,
+      "column_name": "Avg Packet Size",
+      "canonical_type": "double",
+      "nullable": true
+    },
+    {
+      "column_position": 53,
+      "column_name": "Avg Fwd Segment Size",
+      "canonical_type": "double",
+      "nullable": true
+    },
+    {
+      "column_position": 54,
+      "column_name": "Avg Bwd Segment Size",
+      "canonical_type": "double",
+      "nullable": true
+    },
+    {
+      "column_position": 55,
+      "column_name": "Fwd Avg Bytes/Bulk",
+      "canonical_type": "int64",
+      "nullable": true
+    },
+    {
+      "column_position": 56,
+      "column_name": "Fwd Avg Packets/Bulk",
+      "canonical_type": "int64",
+      "nullable": true
+    },
+    {
+      "column_position": 57,
+      "column_name": "Fwd Avg Bulk Rate",
+      "canonical_type": "int64",
+      "nullable": true
+    },
+    {
+      "column_position": 58,
+      "column_name": "Bwd Avg Bytes/Bulk",
+      "canonical_type": "int64",
+      "nullable": true
+    },
+    {
+      "column_position": 59,
+      "column_name": "Bwd Avg Packets/Bulk",
+      "canonical_type": "int64",
+      "nullable": true
+    },
+    {
+      "column_position": 60,
+      "column_name": "Bwd Avg Bulk Rate",
+      "canonical_type": "int64",
+      "nullable": true
+    },
+    {
+      "column_position": 61,
+      "column_name": "Subflow Fwd Packets",
+      "canonical_type": "int64",
+      "nullable": true
+    },
+    {
+      "column_position": 62,
+      "column_name": "Subflow Fwd Bytes",
+      "canonical_type": "int64",
+      "nullable": true
+    },
+    {
+      "column_position": 63,
+      "column_name": "Subflow Bwd Packets",
+      "canonical_type": "int64",
+      "nullable": true
+    },
+    {
+      "column_position": 64,
+      "column_name": "Subflow Bwd Bytes",
+      "canonical_type": "int64",
+      "nullable": true
+    },
+    {
+      "column_position": 65,
+      "column_name": "Init Fwd Win Bytes",
+      "canonical_type": "int64",
+      "nullable": true
+    },
+    {
+      "column_position": 66,
+      "column_name": "Init Bwd Win Bytes",
+      "canonical_type": "int64",
+      "nullable": true
+    },
+    {
+      "column_position": 67,
+      "column_name": "Fwd Act Data Packets",
+      "canonical_type": "int64",
+      "nullable": true
+    },
+    {
+      "column_position": 68,
+      "column_name": "Fwd Seg Size Min",
+      "canonical_type": "int64",
+      "nullable": true
+    },
+    {
+      "column_position": 69,
+      "column_name": "Active Mean",
+      "canonical_type": "double",
+      "nullable": true
+    },
+    {
+      "column_position": 70,
+      "column_name": "Active Std",
+      "canonical_type": "double",
+      "nullable": true
+    },
+    {
+      "column_position": 71,
+      "column_name": "Active Max",
+      "canonical_type": "double",
+      "nullable": true
+    },
+    {
+      "column_position": 72,
+      "column_name": "Active Min",
+      "canonical_type": "double",
+      "nullable": true
+    },
+    {
+      "column_position": 73,
+      "column_name": "Idle Mean",
+      "canonical_type": "double",
+      "nullable": true
+    },
+    {
+      "column_position": 74,
+      "column_name": "Idle Std",
+      "canonical_type": "double",
+      "nullable": true
+    },
+    {
+      "column_position": 75,
+      "column_name": "Idle Max",
+      "canonical_type": "double",
+      "nullable": true
+    },
+    {
+      "column_position": 76,
+      "column_name": "Idle Min",
+      "canonical_type": "double",
+      "nullable": true
+    },
+    {
+      "column_position": 77,
+      "column_name": "Label",
+      "canonical_type": "string",
+      "nullable": true
+    }
+  ],
+  "mismatch_column_count": 31,
+  "mismatch_columns": [
+    "Flow Duration",
+    "Total Fwd Packets",
+    "Total Backward Packets",
+    "Fwd Packets Length Total",
+    "Bwd Packets Length Total",
+    "Fwd Packet Length Max",
+    "Bwd Packet Length Max",
+    "Flow Bytes/s",
+    "Flow Packets/s",
+    "Flow IAT Max",
+    "Flow IAT Min",
+    "Fwd IAT Total",
+    "Fwd IAT Max",
+    "Fwd IAT Min",
+    "Bwd IAT Total",
+    "Bwd IAT Max",
+    "Bwd IAT Min",
+    "Fwd Header Length",
+    "Bwd Header Length",
+    "Packet Length Max",
+    "Down/Up Ratio",
+    "Subflow Fwd Packets",
+    "Subflow Fwd Bytes",
+    "Subflow Bwd Packets",
+    "Subflow Bwd Bytes",
+    "Init Bwd Win Bytes",
+    "Fwd Act Data Packets",
+    "Active Max",
+    "Active Min",
+    "Idle Max",
+    "Idle Min"
+  ],
+  "logical_type_normalization": {
+    "performed": true,
+    "performed_at_utc": "2026-07-10T05:49:09.273951+00:00",
+    "dictionary_columns_normalized": 1,
+    "policy": "Dictionary-encoded string columns are represented as ordinary UTF-8 string columns in the canonical schema.",
+    "repair_table": "outputs/tables/table_02b_fix_dictionary_schema_normalization.csv"
+  }
+}
