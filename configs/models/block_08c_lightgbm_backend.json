@@ -1,0 +1,11 @@
+{
+  "selected_backend": "gpu_opencl",
+  "device_parameters": {
+    "device_type": "gpu",
+    "gpu_platform_id": -1,
+    "gpu_device_id": -1
+  },
+  "lightgbm_version": "4.6.0",
+  "gpu": "Tesla T4, 15360 MiB, 580.159.04\nTesla T4, 15360 MiB, 580.159.04",
+  "cpu_fallback_permitted": false
+}

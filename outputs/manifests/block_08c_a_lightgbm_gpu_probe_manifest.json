@@ -1,0 +1,9 @@
+{
+  "block": "08C-A",
+  "status": "completed",
+  "selected_backend": "gpu_opencl",
+  "artifacts": {
+    "gpu_probe": "outputs/metrics/metric_08c_a_lightgbm_gpu_probe.json",
+    "backend_configuration": "configs/models/block_08c_lightgbm_backend.json"
+  }
+}

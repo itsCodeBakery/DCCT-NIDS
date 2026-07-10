@@ -60,11 +60,17 @@
       "name": "GPU XGBoost Compact binary temporal baseline",
       "status": "completed",
       "manifest": "outputs/manifests/block_08b_xgboost_binary_manifest.json"
+    },
+    {
+      "block": "08C-A",
+      "name": "LightGBM GPU backend capability probe",
+      "status": "completed",
+      "manifest": "outputs/manifests/block_08c_a_lightgbm_gpu_probe_manifest.json"
     }
   ],
   "next_block": {
-    "block": "08C",
-    "name": "GPU CatBoost binary temporal baseline",
+    "block": "08C-B",
+    "name": "GPU LightGBM operational temporal baseline",
     "status": "pending"
   },
   "primary_metrics": [
@@ -83,5 +89,5 @@
     31415,
     271828
   ],
-  "last_updated_utc": "2026-07-10T07:42:22.017441+00:00"
+  "last_updated_utc": "2026-07-10T08:50:02.417546+00:00"
 }
