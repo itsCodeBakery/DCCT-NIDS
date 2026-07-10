@@ -1,7 +1,7 @@
 {
   "block": "08B",
   "status": "completed",
-  "created_at_utc": "2026-07-10T07:35:17.815785+00:00",
+  "created_at_utc": "2026-07-10T07:42:22.015835+00:00",
   "model": "XGBoost",
   "task": "binary temporal intrusion detection",
   "feature_set": "Compact",
@@ -45,8 +45,8 @@
     "false_negative": 13450,
     "true_positive": 188455
   },
-  "training_seconds": 6.698703772000954,
-  "prediction_seconds": 0.07578376700075751,
+  "training_seconds": 6.733723542998632,
+  "prediction_seconds": 0.07225434099927952,
   "artifacts": {
     "model_json": "outputs/checkpoints/block_08b_xgboost_binary_compact.json",
     "model_ubj": "outputs/checkpoints/block_08b_xgboost_binary_compact.ubj",
