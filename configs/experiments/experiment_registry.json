@@ -42,11 +42,17 @@
       "name": "Chronological provenance and open-set split protocols",
       "status": "completed",
       "manifest": "outputs/manifests/block_06_split_protocol_manifest.json"
+    },
+    {
+      "block": "07",
+      "name": "Training-only official feature spaces",
+      "status": "completed",
+      "manifest": "outputs/manifests/block_07_official_feature_spaces_manifest.json"
     }
   ],
   "next_block": {
-    "block": "07",
-    "name": "Leakage-resistant stratified baseline dataset and preprocessing pipeline",
+    "block": "08",
+    "name": "Materialize model-ready train, validation, and test arrays with fold-safe preprocessing",
     "status": "pending"
   },
   "primary_metrics": [
@@ -65,5 +71,5 @@
     31415,
     271828
   ],
-  "last_updated_utc": "2026-07-10T06:36:52.824965+00:00"
+  "last_updated_utc": "2026-07-10T07:17:21.349515+00:00"
 }

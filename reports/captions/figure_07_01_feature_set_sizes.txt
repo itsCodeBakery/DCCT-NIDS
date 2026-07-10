@@ -1,0 +1,1 @@
+Figure 7.1. Sizes of the three frozen DCCT-NIDS feature spaces. The Full set contains all leakage-safe primary features, the Reduced set removes only training-derived near-perfect redundancies, and the Compact set retains the 32 most informative reduced features for lightweight deployment.

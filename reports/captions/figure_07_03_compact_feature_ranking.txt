@@ -1,0 +1,1 @@
+Figure 7.3. The frozen 32-feature Compact space ranked by mutual information with attack family. Scores were estimated only from the strict chronological training partition, preventing validation and test-label leakage.

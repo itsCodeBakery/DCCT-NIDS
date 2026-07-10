@@ -1,0 +1,4 @@
+feature_set,feature_count,removed_from_full,selection_basis
+Full,67,0,Leakage-safe Block 5 policy
+Reduced,51,16,Training-only near-perfect Pearson/Spearman pruning
+Compact,32,35,Top-32 training-only mutual information after redundancy pruning

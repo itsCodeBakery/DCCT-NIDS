@@ -1,0 +1,1 @@
+Figure 7.2. Features removed from the Full feature space because of near-perfect Pearson or Spearman correlation measured exclusively on the chronological training partition. Bold labels report the strongest absolute correlation associated with each removal.

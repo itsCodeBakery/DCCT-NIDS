@@ -1,0 +1,746 @@
+{
+  "dataset": "CSE-CIC-IDS2018",
+  "version": "1.0.0",
+  "created_at_utc": "2026-07-10T07:17:08.126521+00:00",
+  "selection_scope": {
+    "split": "strict chronological training only",
+    "train_file_orders": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "validation_used": false,
+    "test_used": false,
+    "random_seed": 42,
+    "sample_rows": 350000
+  },
+  "feature_sets": {
+    "full": {
+      "name": "Full",
+      "feature_count": 67,
+      "features": [
+        "Protocol",
+        "Flow Duration",
+        "Total Fwd Packets",
+        "Total Backward Packets",
+        "Fwd Packets Length Total",
+        "Bwd Packets Length Total",
+        "Fwd Packet Length Max",
+        "Fwd Packet Length Min",
+        "Fwd Packet Length Mean",
+        "Fwd Packet Length Std",
+        "Bwd Packet Length Max",
+        "Bwd Packet Length Min",
+        "Bwd Packet Length Mean",
+        "Bwd Packet Length Std",
+        "Flow Bytes/s",
+        "Flow Packets/s",
+        "Flow IAT Mean",
+        "Flow IAT Std",
+        "Flow IAT Max",
+        "Flow IAT Min",
+        "Fwd IAT Total",
+        "Fwd IAT Mean",
+        "Fwd IAT Std",
+        "Fwd IAT Max",
+        "Fwd IAT Min",
+        "Bwd IAT Total",
+        "Bwd IAT Mean",
+        "Bwd IAT Std",
+        "Bwd IAT Max",
+        "Bwd IAT Min",
+        "Fwd PSH Flags",
+        "Fwd Header Length",
+        "Bwd Header Length",
+        "Fwd Packets/s",
+        "Bwd Packets/s",
+        "Packet Length Min",
+        "Packet Length Max",
+        "Packet Length Mean",
+        "Packet Length Std",
+        "Packet Length Variance",
+        "FIN Flag Count",
+        "SYN Flag Count",
+        "RST Flag Count",
+        "PSH Flag Count",
+        "ACK Flag Count",
+        "URG Flag Count",
+        "ECE Flag Count",
+        "Down/Up Ratio",
+        "Avg Packet Size",
+        "Avg Fwd Segment Size",
+        "Avg Bwd Segment Size",
+        "Subflow Fwd Packets",
+        "Subflow Fwd Bytes",
+        "Subflow Bwd Packets",
+        "Subflow Bwd Bytes",
+        "Init Fwd Win Bytes",
+        "Init Bwd Win Bytes",
+        "Fwd Act Data Packets",
+        "Fwd Seg Size Min",
+        "Active Mean",
+        "Active Std",
+        "Active Max",
+        "Active Min",
+        "Idle Mean",
+        "Idle Std",
+        "Idle Max",
+        "Idle Min"
+      ],
+      "definition": "All leakage-safe primary features from Block 5."
+    },
+    "reduced": {
+      "name": "Reduced",
+      "feature_count": 51,
+      "features": [
+        "Protocol",
+        "Total Backward Packets",
+        "Fwd Packet Length Max",
+        "Fwd Packet Length Min",
+        "Fwd Packet Length Mean",
+        "Fwd Packet Length Std",
+        "Bwd Packet Length Max",
+        "Bwd Packet Length Min",
+        "Bwd Packet Length Mean",
+        "Bwd Packet Length Std",
+        "Flow Bytes/s",
+        "Flow Packets/s",
+        "Flow IAT Mean",
+        "Flow IAT Std",
+        "Fwd IAT Total",
+        "Fwd IAT Mean",
+        "Fwd IAT Max",
+        "Fwd IAT Min",
+        "Bwd IAT Total",
+        "Bwd IAT Mean",
+        "Bwd IAT Std",
+        "Bwd IAT Max",
+        "Bwd IAT Min",
+        "Fwd PSH Flags",
+        "Fwd Header Length",
+        "Bwd Header Length",
+        "Fwd Packets/s",
+        "Bwd Packets/s",
+        "Packet Length Min",
+        "Packet Length Max",
+        "Packet Length Mean",
+        "Packet Length Std",
+        "FIN Flag Count",
+        "PSH Flag Count",
+        "ACK Flag Count",
+        "URG Flag Count",
+        "ECE Flag Count",
+        "Down/Up Ratio",
+        "Avg Packet Size",
+        "Subflow Fwd Bytes",
+        "Subflow Bwd Bytes",
+        "Init Fwd Win Bytes",
+        "Init Bwd Win Bytes",
+        "Fwd Act Data Packets",
+        "Fwd Seg Size Min",
+        "Active Std",
+        "Active Max",
+        "Active Min",
+        "Idle Mean",
+        "Idle Std",
+        "Idle Min"
+      ],
+      "removed_features": [
+        "Active Mean",
+        "Avg Bwd Segment Size",
+        "Avg Fwd Segment Size",
+        "Bwd Packets Length Total",
+        "Flow Duration",
+        "Flow IAT Max",
+        "Flow IAT Min",
+        "Fwd IAT Std",
+        "Fwd Packets Length Total",
+        "Idle Max",
+        "Packet Length Variance",
+        "RST Flag Count",
+        "SYN Flag Count",
+        "Subflow Bwd Packets",
+        "Subflow Fwd Packets",
+        "Total Fwd Packets"
+      ],
+      "definition": "Full feature set after training-only near-perfect correlation pruning.",
+      "pearson_threshold": 0.9999,
+      "spearman_threshold": 0.9999
+    },
+    "compact": {
+      "name": "Compact",
+      "feature_count": 32,
+      "features": [
+        "Fwd Header Length",
+        "Subflow Fwd Bytes",
+        "Fwd Packet Length Mean",
+        "Fwd Packet Length Max",
+        "Bwd Packet Length Mean",
+        "Bwd Packet Length Max",
+        "Subflow Bwd Bytes",
+        "Init Fwd Win Bytes",
+        "Fwd Packet Length Std",
+        "Bwd Header Length",
+        "Bwd Packet Length Std",
+        "Packet Length Std",
+        "Packet Length Mean",
+        "Avg Packet Size",
+        "Fwd IAT Mean",
+        "Fwd IAT Total",
+        "Fwd IAT Max",
+        "Total Backward Packets",
+        "Packet Length Max",
+        "Fwd Packets/s",
+        "Flow IAT Mean",
+        "Init Bwd Win Bytes",
+        "Bwd Packets/s",
+        "Bwd IAT Min",
+        "Flow Packets/s",
+        "Fwd IAT Min",
+        "Flow IAT Std",
+        "Bwd IAT Total",
+        "Bwd IAT Max",
+        "Flow Bytes/s",
+        "Bwd IAT Mean",
+        "Bwd IAT Std"
+      ],
+      "definition": "Top training-only attack-family mutual-information features selected from the reduced feature set."
+    }
+  },
+  "preprocessing": {
+    "infinity_policy": "Replace positive and negative infinity with missing.",
+    "imputation_policy": "Training-only median imputation.",
+    "scaling_policy": "Training-only RobustScaler fitted separately for each experimental fold.",
+    "log1p_policy": "Apply only to nonnegative training features with absolute skewness >= 2.0.",
+    "log1p_features": [
+      "Active Max",
+      "Active Mean",
+      "Active Min",
+      "Active Std",
+      "Avg Bwd Segment Size",
+      "Avg Fwd Segment Size",
+      "Avg Packet Size",
+      "Bwd Header Length",
+      "Bwd IAT Max",
+      "Bwd IAT Mean",
+      "Bwd IAT Min",
+      "Bwd IAT Std",
+      "Bwd IAT Total",
+      "Bwd Packet Length Mean",
+      "Bwd Packet Length Min",
+      "Bwd Packets Length Total",
+      "Bwd Packets/s",
+      "Down/Up Ratio",
+      "FIN Flag Count",
+      "Flow Bytes/s",
+      "Flow IAT Max",
+      "Flow IAT Std",
+      "Fwd Act Data Packets",
+      "Fwd Header Length",
+      "Fwd IAT Max",
+      "Fwd IAT Std",
+      "Fwd PSH Flags",
+      "Fwd Packet Length Max",
+      "Fwd Packet Length Mean",
+      "Fwd Packet Length Min",
+      "Fwd Packets Length Total",
+      "Fwd Packets/s",
+      "Idle Max",
+      "Idle Mean",
+      "Idle Min",
+      "Idle Std",
+      "Packet Length Mean",
+      "Packet Length Min",
+      "Packet Length Variance",
+      "Protocol",
+      "SYN Flag Count",
+      "Subflow Bwd Bytes",
+      "Subflow Bwd Packets",
+      "Subflow Fwd Bytes",
+      "Subflow Fwd Packets",
+      "Total Backward Packets",
+      "Total Fwd Packets",
+      "URG Flag Count"
+    ],
+    "training_statistics": {
+      "Protocol": {
+        "median": 6.0,
+        "minimum": 0.0,
+        "maximum": 17.0,
+        "skewness": 3.1135609380619216,
+        "apply_log1p": true
+      },
+      "Flow Duration": {
+        "median": 1004661.5,
+        "minimum": -919011000000.0,
+        "maximum": 119999998.0,
+        "skewness": -412.93792888820883,
+        "apply_log1p": false
+      },
+      "Total Fwd Packets": {
+        "median": 3.0,
+        "minimum": 1.0,
+        "maximum": 309629.0,
+        "skewness": 25.26659403289362,
+        "apply_log1p": true
+      },
+      "Total Backward Packets": {
+        "median": 4.0,
+        "minimum": 0.0,
+        "maximum": 21720.0,
+        "skewness": 136.7866629079532,
+        "apply_log1p": true
+      },
+      "Fwd Packets Length Total": {
+        "median": 40.0,
+        "minimum": 0.0,
+        "maximum": 9908128.0,
+        "skewness": 25.33994046830765,
+        "apply_log1p": true
+      },
+      "Bwd Packets Length Total": {
+        "median": 488.0,
+        "minimum": 0.0,
+        "maximum": 31604276.0,
+        "skewness": 138.70107687480532,
+        "apply_log1p": true
+      },
+      "Fwd Packet Length Max": {
+        "median": 36.0,
+        "minimum": 0.0,
+        "maximum": 34368.0,
+        "skewness": 5.307122148834936,
+        "apply_log1p": true
+      },
+      "Fwd Packet Length Min": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 1460.0,
+        "skewness": 18.759219044941325,
+        "apply_log1p": true
+      },
+      "Fwd Packet Length Mean": {
+        "median": 29.0,
+        "minimum": 0.0,
+        "maximum": 8254.9541015625,
+        "skewness": 7.080352193149146,
+        "apply_log1p": true
+      },
+      "Fwd Packet Length Std": {
+        "median": 11.547005653381348,
+        "minimum": 0.0,
+        "maximum": 7633.7138671875,
+        "skewness": 1.8749291946048205,
+        "apply_log1p": false
+      },
+      "Bwd Packet Length Max": {
+        "median": 410.0,
+        "minimum": 0.0,
+        "maximum": 4012.0,
+        "skewness": 0.0964762985555223,
+        "apply_log1p": false
+      },
+      "Bwd Packet Length Min": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 634.0,
+        "skewness": 4.626675509474877,
+        "apply_log1p": true
+      },
+      "Bwd Packet Length Mean": {
+        "median": 149.5,
+        "minimum": 0.0,
+        "maximum": 1844.058837890625,
+        "skewness": 2.5282952435025567,
+        "apply_log1p": true
+      },
+      "Bwd Packet Length Std": {
+        "median": 239.70919799804688,
+        "minimum": 0.0,
+        "maximum": 2006.0,
+        "skewness": 0.006401491274705773,
+        "apply_log1p": false
+      },
+      "Flow Bytes/s": {
+        "median": 747.01677255,
+        "minimum": 0.0,
+        "maximum": 160500000.0,
+        "skewness": 131.6377978986501,
+        "apply_log1p": true
+      },
+      "Flow Packets/s": {
+        "median": 7.7656438156,
+        "minimum": -0.0001068419,
+        "maximum": 4000000.0,
+        "skewness": 62.85676258752241,
+        "apply_log1p": false
+      },
+      "Flow IAT Mean": {
+        "median": 147862.75,
+        "minimum": -23563124736.0,
+        "maximum": 119958384.0,
+        "skewness": -309.2846240939368,
+        "apply_log1p": false
+      },
+      "Flow IAT Std": {
+        "median": 4781.52734375,
+        "minimum": 0.0,
+        "maximum": 474354483200.0,
+        "skewness": 311.9257425407882,
+        "apply_log1p": true
+      },
+      "Flow IAT Max": {
+        "median": 924884.5,
+        "minimum": 1.0,
+        "maximum": 754846990336.0,
+        "skewness": 331.21125416498637,
+        "apply_log1p": true
+      },
+      "Flow IAT Min": {
+        "median": 7.0,
+        "minimum": -917310013440.0,
+        "maximum": 119958384.0,
+        "skewness": -322.6381684726209,
+        "apply_log1p": false
+      },
+      "Fwd IAT Total": {
+        "median": 15887.0,
+        "minimum": -919011000320.0,
+        "maximum": 120000000.0,
+        "skewness": -412.9378517988983,
+        "apply_log1p": false
+      },
+      "Fwd IAT Mean": {
+        "median": 8097.5,
+        "minimum": -23563124736.0,
+        "maximum": 119958384.0,
+        "skewness": -308.3183383720621,
+        "apply_log1p": false
+      },
+      "Fwd IAT Std": {
+        "median": 278.6000671386719,
+        "minimum": 0.0,
+        "maximum": 474354483200.0,
+        "skewness": 311.92597297725945,
+        "apply_log1p": true
+      },
+      "Fwd IAT Max": {
+        "median": 15555.0,
+        "minimum": 0.0,
+        "maximum": 754846990336.0,
+        "skewness": 331.21103279593,
+        "apply_log1p": true
+      },
+      "Fwd IAT Min": {
+        "median": 288.0,
+        "minimum": -917310013440.0,
+        "maximum": 119958384.0,
+        "skewness": -322.6375340488826,
+        "apply_log1p": false
+      },
+      "Bwd IAT Total": {
+        "median": 9264.0,
+        "minimum": 0.0,
+        "maximum": 119999816.0,
+        "skewness": 5.638470079756293,
+        "apply_log1p": true
+      },
+      "Bwd IAT Mean": {
+        "median": 3231.0,
+        "minimum": 0.0,
+        "maximum": 119464232.0,
+        "skewness": 19.424598328904768,
+        "apply_log1p": true
+      },
+      "Bwd IAT Std": {
+        "median": 3065.853515625,
+        "minimum": 0.0,
+        "maximum": 84473144.0,
+        "skewness": 9.87223707555889,
+        "apply_log1p": true
+      },
+      "Bwd IAT Max": {
+        "median": 8425.0,
+        "minimum": 0.0,
+        "maximum": 119464232.0,
+        "skewness": 8.359105412425981,
+        "apply_log1p": true
+      },
+      "Bwd IAT Min": {
+        "median": 21.0,
+        "minimum": 0.0,
+        "maximum": 119464232.0,
+        "skewness": 27.35259275956368,
+        "apply_log1p": true
+      },
+      "Fwd PSH Flags": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 1.0,
+        "skewness": 9.184739884180903,
+        "apply_log1p": true
+      },
+      "Fwd Header Length": {
+        "median": 72.0,
+        "minimum": 0.0,
+        "maximum": 2477032.0,
+        "skewness": 25.25311537748938,
+        "apply_log1p": true
+      },
+      "Bwd Header Length": {
+        "median": 92.0,
+        "minimum": 0.0,
+        "maximum": 434412.0,
+        "skewness": 136.2877315706164,
+        "apply_log1p": true
+      },
+      "Fwd Packets/s": {
+        "median": 3.7774577140808105,
+        "minimum": 0.0,
+        "maximum": 4000000.0,
+        "skewness": 67.66045150269841,
+        "apply_log1p": true
+      },
+      "Bwd Packets/s": {
+        "median": 2.9611008167266846,
+        "minimum": 0.0,
+        "maximum": 2000000.0,
+        "skewness": 153.01560353227407,
+        "apply_log1p": true
+      },
+      "Packet Length Min": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 788.0,
+        "skewness": 13.464308299121322,
+        "apply_log1p": true
+      },
+      "Packet Length Max": {
+        "median": 935.0,
+        "minimum": 0.0,
+        "maximum": 34368.0,
+        "skewness": 0.786946688553167,
+        "apply_log1p": false
+      },
+      "Packet Length Mean": {
+        "median": 123.0,
+        "minimum": 0.0,
+        "maximum": 2300.0224609375,
+        "skewness": 3.0752617099436272,
+        "apply_log1p": true
+      },
+      "Packet Length Std": {
+        "median": 316.61968994140625,
+        "minimum": 0.0,
+        "maximum": 5469.162109375,
+        "skewness": 0.01588459417917531,
+        "apply_log1p": false
+      },
+      "Packet Length Variance": {
+        "median": 100248.03125,
+        "minimum": 0.0,
+        "maximum": 29911736.0,
+        "skewness": 126.60334588117648,
+        "apply_log1p": true
+      },
+      "FIN Flag Count": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 1.0,
+        "skewness": 32.08517057785993,
+        "apply_log1p": true
+      },
+      "SYN Flag Count": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 1.0,
+        "skewness": 9.184739884180903,
+        "apply_log1p": true
+      },
+      "RST Flag Count": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 1.0,
+        "skewness": 0.2410588477812867,
+        "apply_log1p": false
+      },
+      "PSH Flag Count": {
+        "median": 1.0,
+        "minimum": 0.0,
+        "maximum": 1.0,
+        "skewness": -0.30199186583174725,
+        "apply_log1p": false
+      },
+      "ACK Flag Count": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 1.0,
+        "skewness": 0.6430108060902169,
+        "apply_log1p": false
+      },
+      "URG Flag Count": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 1.0,
+        "skewness": 10.357655265288543,
+        "apply_log1p": true
+      },
+      "ECE Flag Count": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 1.0,
+        "skewness": 0.24107052635521264,
+        "apply_log1p": false
+      },
+      "Down/Up Ratio": {
+        "median": 1.0,
+        "minimum": 0.0,
+        "maximum": 77.0,
+        "skewness": 19.04075229954798,
+        "apply_log1p": true
+      },
+      "Avg Packet Size": {
+        "median": 140.57142639160156,
+        "minimum": 0.0,
+        "maximum": 2300.639892578125,
+        "skewness": 2.423859966540716,
+        "apply_log1p": true
+      },
+      "Avg Fwd Segment Size": {
+        "median": 29.0,
+        "minimum": 0.0,
+        "maximum": 8254.9541015625,
+        "skewness": 7.080352193149146,
+        "apply_log1p": true
+      },
+      "Avg Bwd Segment Size": {
+        "median": 149.5,
+        "minimum": 0.0,
+        "maximum": 1844.058837890625,
+        "skewness": 2.5282952435025567,
+        "apply_log1p": true
+      },
+      "Subflow Fwd Packets": {
+        "median": 3.0,
+        "minimum": 1.0,
+        "maximum": 309629.0,
+        "skewness": 25.26659403289362,
+        "apply_log1p": true
+      },
+      "Subflow Fwd Bytes": {
+        "median": 40.0,
+        "minimum": 0.0,
+        "maximum": 9908128.0,
+        "skewness": 25.33994046830765,
+        "apply_log1p": true
+      },
+      "Subflow Bwd Packets": {
+        "median": 4.0,
+        "minimum": 0.0,
+        "maximum": 21720.0,
+        "skewness": 136.7866629079532,
+        "apply_log1p": true
+      },
+      "Subflow Bwd Bytes": {
+        "median": 488.0,
+        "minimum": 0.0,
+        "maximum": 31604276.0,
+        "skewness": 138.70107735289426,
+        "apply_log1p": true
+      },
+      "Init Fwd Win Bytes": {
+        "median": 8192.0,
+        "minimum": -1.0,
+        "maximum": 65535.0,
+        "skewness": 0.9197625429702164,
+        "apply_log1p": false
+      },
+      "Init Bwd Win Bytes": {
+        "median": 211.0,
+        "minimum": -1.0,
+        "maximum": 65535.0,
+        "skewness": 3.392760455847715,
+        "apply_log1p": false
+      },
+      "Fwd Act Data Packets": {
+        "median": 1.0,
+        "minimum": 0.0,
+        "maximum": 309628.0,
+        "skewness": 25.26864991892546,
+        "apply_log1p": true
+      },
+      "Fwd Seg Size Min": {
+        "median": 20.0,
+        "minimum": 0.0,
+        "maximum": 44.0,
+        "skewness": 0.009237697535023709,
+        "apply_log1p": false
+      },
+      "Active Mean": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 81131872.0,
+        "skewness": 63.678512181596965,
+        "apply_log1p": true
+      },
+      "Active Std": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 30729976.0,
+        "skewness": 33.68972804473395,
+        "apply_log1p": true
+      },
+      "Active Max": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 81131872.0,
+        "skewness": 39.5928234471677,
+        "apply_log1p": true
+      },
+      "Active Min": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 81131872.0,
+        "skewness": 76.04527666780814,
+        "apply_log1p": true
+      },
+      "Idle Mean": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 305678516224.0,
+        "skewness": 305.20887478793276,
+        "apply_log1p": true
+      },
+      "Idle Std": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 193152417792.0,
+        "skewness": 316.84518086966403,
+        "apply_log1p": true
+      },
+      "Idle Max": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 754846990336.0,
+        "skewness": 331.2143322177564,
+        "apply_log1p": true
+      },
+      "Idle Min": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 239933997056.0,
+        "skewness": 548.6823950517146,
+        "apply_log1p": true
+      }
+    }
+  },
+  "scientific_constraints": [
+    "Validation and test statistics were not used for feature selection.",
+    "All model comparisons must use one of the three frozen official feature sets.",
+    "Fold-specific imputation and scaling must still be refitted during each experiment.",
+    "The training medians saved here are audit statistics, not universal model preprocessors."
+  ]
+}

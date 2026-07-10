@@ -1,0 +1,17 @@
+removed_feature,retained_feature,pearson_correlation,spearman_correlation,removed_attack_family_mi,retained_attack_family_mi,reason
+Total Fwd Packets,Fwd Header Length,0.9999021889244317,0.9657172507297195,0.455980546961924,0.7076537756006891,Near-perfect training-only correlation redundancy
+Subflow Fwd Packets,Fwd Header Length,0.9999021889244317,0.9657172507297195,0.45599068475311566,0.7076537756006891,Near-perfect training-only correlation redundancy
+Fwd Packets Length Total,Subflow Fwd Bytes,1.0,1.0,0.6491308863301783,0.6495256851760807,Near-perfect training-only correlation redundancy
+Avg Fwd Segment Size,Fwd Packet Length Mean,1.0,1.0,0.6468356249954528,0.6476308086275002,Near-perfect training-only correlation redundancy
+Avg Bwd Segment Size,Bwd Packet Length Mean,1.0,1.0,0.6316673060702422,0.6321922630290506,Near-perfect training-only correlation redundancy
+Bwd Packets Length Total,Subflow Bwd Bytes,1.0000000000000018,1.0,0.616174153797969,0.6162176718238499,Near-perfect training-only correlation redundancy
+Packet Length Variance,Packet Length Std,0.7865852013177607,1.0000000000000009,0.5512895971755658,0.5538753948028143,Near-perfect training-only correlation redundancy
+Flow Duration,Fwd IAT Total,0.9999994726631096,0.7210909443571002,0.4607061093559126,0.5305157792885773,Near-perfect training-only correlation redundancy
+Idle Max,Fwd IAT Max,0.9999942782829467,0.6972611012285772,0.13324043272063957,0.528052769264838,Near-perfect training-only correlation redundancy
+Flow IAT Max,Fwd IAT Max,0.9999995285721079,0.6890303456305072,0.4923474560420582,0.528052769264838,Near-perfect training-only correlation redundancy
+Subflow Bwd Packets,Total Backward Packets,1.0,1.0,0.49661810212492496,0.4968806011592741,Near-perfect training-only correlation redundancy
+Flow IAT Min,Fwd IAT Min,0.9999992590585766,0.6356154554630216,0.3374094974501263,0.40164680591392354,Near-perfect training-only correlation redundancy
+Fwd IAT Std,Flow IAT Std,0.9999983762810403,0.7568257480591355,0.39527247401245225,0.40100853798150937,Near-perfect training-only correlation redundancy
+RST Flag Count,ECE Flag Count,0.9999942027143969,0.999994202716796,0.1269325131885111,0.12693581431840475,Near-perfect training-only correlation redundancy
+Active Mean,Active Max,0.9070175886614491,0.9999345031403155,0.05676024078250763,0.05700700357768085,Near-perfect training-only correlation redundancy
+SYN Flag Count,Fwd PSH Flags,1.0,1.0,0.011159164999494327,0.011159164999494327,Near-perfect training-only correlation redundancy
