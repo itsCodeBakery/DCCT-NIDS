@@ -1,0 +1,7 @@
+variant,policy,threshold,benign_rows,allowed_false_positives,realized_false_positives,realized_fpr
+unweighted,fpr_at_most_1_percent,0.000126,470324,4703,4703,0.009999489713474115
+unweighted,fpr_at_most_0_1_percent,0.006789,470324,470,470,0.0009993111131900562
+sqrt_weight,fpr_at_most_1_percent,0.0001616022,470324,4703,4703,0.009999489713474115
+sqrt_weight,fpr_at_most_0_1_percent,0.009959,470324,470,470,0.0009993111131900562
+full_weight,fpr_at_most_1_percent,0.000181,470324,4703,4697,0.009986732550327008
+full_weight,fpr_at_most_0_1_percent,0.01226,470324,470,470,0.0009993111131900562

@@ -1,0 +1,13 @@
+{
+  "block": "08E-Prerequisite-Repair-v2",
+  "status": "completed",
+  "created_at_utc": "2026-07-10T11:00:51.192056+00:00",
+  "reason": "The exact threshold audit and compatibility summary were calculated in memory but were not saved during the original XGBoost recovery.",
+  "selected_variant": "sqrt_weight",
+  "selected_weight": 1.714299989984941,
+  "selected_threshold": 0.0001616021909285,
+  "reconstructed_artifacts": {
+    "exact_threshold_audit": "outputs/tables/table_08b_fix_09_exact_threshold_audit.csv",
+    "operational_summary": "outputs/metrics/metric_08b_fix_v2_operational_summary.json"
+  }
+}
