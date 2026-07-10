@@ -1,0 +1,9 @@
+{
+  "block": "08D-A",
+  "status": "completed",
+  "gpu_successful": true,
+  "artifacts": {
+    "gpu_probe": "outputs/metrics/metric_08d_a_catboost_gpu_probe.json",
+    "backend_configuration": "configs/models/block_08d_catboost_backend.json"
+  }
+}

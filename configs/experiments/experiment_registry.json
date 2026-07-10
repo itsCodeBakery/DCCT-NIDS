@@ -72,10 +72,16 @@
       "name": "Stable LightGBM operational temporal baseline",
       "status": "completed",
       "manifest": "outputs/manifests/block_08c_lightgbm_operational_manifest.json"
+    },
+    {
+      "block": "08D-A",
+      "name": "CatBoost GPU capability probe",
+      "status": "completed",
+      "manifest": "outputs/manifests/block_08d_a_catboost_gpu_probe_manifest.json"
     }
   ],
   "next_block": {
-    "block": "08D",
+    "block": "08D-B",
     "name": "GPU CatBoost operational temporal baseline",
     "status": "pending"
   },
@@ -95,5 +101,5 @@
     31415,
     271828
   ],
-  "last_updated_utc": "2026-07-10T09:31:16.439377+00:00"
+  "last_updated_utc": "2026-07-10T09:50:40.320218+00:00"
 }

@@ -1,0 +1,25 @@
+{
+  "selected_backend": "gpu",
+  "task_type": "GPU",
+  "devices": "0",
+  "catboost_version": "1.2.10",
+  "gpu": "Tesla T4, 15360 MiB, 580.159.04\nTesla T4, 15360 MiB, 580.159.04",
+  "cpu_fallback_permitted": false,
+  "probe_parameters": {
+    "loss_function": "Logloss",
+    "eval_metric": "AUC",
+    "task_type": "GPU",
+    "devices": "0",
+    "iterations": 150,
+    "depth": 8,
+    "learning_rate": 0.08,
+    "l2_leaf_reg": 3.0,
+    "random_seed": 42,
+    "verbose": 0,
+    "allow_writing_files": false,
+    "thread_count": 4,
+    "border_count": 128,
+    "bootstrap_type": "Bayesian",
+    "bagging_temperature": 1.0
+  }
+}

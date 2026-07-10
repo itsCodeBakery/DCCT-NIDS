@@ -1,0 +1,17 @@
+{
+  "block": "08D-A",
+  "status": "completed",
+  "created_at_utc": "2026-07-10T09:50:40.317794+00:00",
+  "gpu": "Tesla T4, 15360 MiB, 580.159.04\nTesla T4, 15360 MiB, 580.159.04",
+  "catboost_version": "1.2.10",
+  "probe_rows": 100000,
+  "probe_features": 32,
+  "probe_fit_rows": 80000,
+  "probe_validation_rows": 20000,
+  "gpu_successful": true,
+  "probe_auc": 0.9676881952260757,
+  "probe_runtime_seconds": 2.169755314000213,
+  "best_iteration": 121,
+  "error": null,
+  "cpu_fallback_used": false
+}
