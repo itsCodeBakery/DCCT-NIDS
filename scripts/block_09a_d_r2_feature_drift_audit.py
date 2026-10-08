@@ -139,7 +139,14 @@ def scan_all(cohort, features):
                         population_rows[group] += int(inside.sum())
                         population_clipped_cells[group] += int(clipped[inside].sum())
                         feature_clip_rows[group] += clipped[inside].sum(axis=0)
-                        wanted = sample_mask & inside
+                        # Preserve rare validation strata rather than
+                        # risking a zero-sample group from 1/32 hashing.
+                        # These are descriptive samples, not training weights.
+                        keep_all_rare = (
+                            family == "Web Attack" or
+                            (split == "validation" and family == "Brute Force")
+                        )
+                        wanted = inside if keep_all_rare else (sample_mask & inside)
                         if np.any(wanted):
                             subset = x[wanted].copy()
                             samples[group].append(subset)
@@ -357,7 +364,7 @@ def main():
         "prior_mlp_summary_sha256":sha256(MLP_SUMMARY),
         "prior_score_shift_summary_sha256":sha256(SCORE_SUMMARY),
         "population_rows_scanned":sum(counts.values()),
-        "sampling_method":"SplitMix64 deterministic row-id hash, 1/32",
+        "sampling_method":"SplitMix64 deterministic row-id hash, 1/32; full census for Web Attack and validation Brute Force rare strata",
         "sampled_total_rows":sum(map(len,groups.values())),
         "feature_count":len(check_names),
         "clip_policy":"fixed MLP-only [-20,20] after historical frozen preprocessing",
