@@ -1,0 +1,1 @@
+Figure 8E.1. Strict temporal-test F1-score, MCC, AUROC and AUPR of the selected XGBoost, LightGBM and CatBoost models. Bold numeric labels identify exact rounded values. No random-split scores are mixed into this comparison.

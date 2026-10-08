@@ -1,0 +1,1 @@
+Figure 8E.4. Reported selected-variant fitting time for XGBoost CUDA, LightGBM OpenCL and CatBoost GPU. These backend-specific timings are descriptive and are not a controlled hardware-throughput benchmark.

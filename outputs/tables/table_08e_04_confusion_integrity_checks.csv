@@ -1,0 +1,10 @@
+model,split,rows,tn,fp,fn,tp,status
+XGBoost,internal_holdout,630362,465620,4704,1,160037,PASS
+XGBoost,official_validation,1145711,1071490,17248,53973,3000,PASS
+XGBoost,strict_temporal_test,971833,760121,9807,59809,142096,PASS
+LightGBM,internal_holdout,630362,465625,4699,1,160037,PASS
+LightGBM,official_validation,1145711,1070224,18514,53826,3147,PASS
+LightGBM,strict_temporal_test,971833,759634,10294,59904,142001,PASS
+CatBoost,internal_holdout,630362,465625,4699,0,160038,PASS
+CatBoost,official_validation,1145711,1069330,19408,54080,2893,PASS
+CatBoost,strict_temporal_test,971833,758547,11381,59874,142031,PASS

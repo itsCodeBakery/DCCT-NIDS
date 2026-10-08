@@ -1,0 +1,10 @@
+model,variant,threshold_policy,attack_family,row_count,true_attack_rows,predicted_attack_rows,detection_rate_or_fpr,mean_attack_probability,median_attack_probability,minimum_attack_probability,maximum_attack_probability,interpretation,backend
+XGBoost,sqrt_weight,fpr_at_most_1_percent,Benign,769928,0,9807,0.0127375546804,0.000276888225926,9.40744257605e-07,1.11218149357e-07,0.999837875366,false_positive_rate,
+XGBoost,sqrt_weight,fpr_at_most_1_percent,Botnet,144535,144535,138761,0.960051198672,0.01381776575,0.0129310097545,8.13739688965e-07,0.999755680561,attack_detection_rate,
+XGBoost,sqrt_weight,fpr_at_most_1_percent,Infiltration,57370,57370,3335,0.0581314275754,0.00214832671918,9.69576035459e-07,1.32441854817e-07,0.999909520149,attack_detection_rate,
+LightGBM,unweighted,fpr_at_most_1_percent,Benign,769928,0,10294,0.0133700813583,0.000286280680667,5.41341688719e-07,1.09733110177e-07,0.997268984031,false_positive_rate,gpu_opencl
+LightGBM,unweighted,fpr_at_most_1_percent,Botnet,144535,144535,138609,0.958999550282,0.0185788065872,0.0316715344495,6.05686949508e-07,0.177116604423,attack_detection_rate,gpu_opencl
+LightGBM,unweighted,fpr_at_most_1_percent,Infiltration,57370,57370,3392,0.0591249782116,0.00177038442759,5.69647449638e-07,2.05145697126e-07,0.998581204476,attack_detection_rate,gpu_opencl
+CatBoost,full_weight,fpr_at_most_1_percent,Benign,769928,0,11381,0.0147819016843,0.000166948778944,4.89711027293e-07,5.21152170675e-11,0.99989967921,false_positive_rate,
+CatBoost,full_weight,fpr_at_most_1_percent,Botnet,144535,144535,138613,0.95902722524,0.0185183796001,0.0177297486731,8.38374608637e-08,0.412350495041,attack_detection_rate,
+CatBoost,full_weight,fpr_at_most_1_percent,Infiltration,57370,57370,3418,0.0595781767474,0.000988517712286,3.66682124984e-07,5.75138358557e-11,0.996106372581,attack_detection_rate,

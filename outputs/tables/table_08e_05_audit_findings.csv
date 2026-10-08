@@ -1,0 +1,2 @@
+model,severity,finding,metric_false_positives,audit_false_positives,action
+XGBoost,requires_recalculation,Internal confusion counts differ from reconstructed exact-FPR audit,4704,4703,Preserve original results; recompute exact threshold and scores from original float64 predictions before publication.

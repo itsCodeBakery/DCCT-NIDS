@@ -1,0 +1,1 @@
+Figure 8E.3. Strict temporal-test MCC versus benign false-positive rate for tree-based baselines. Upper-left represents the preferred operational direction. Thresholds were selected on the training-internal holdout, not the temporal test set.

@@ -1,0 +1,56 @@
+{
+  "block": "08E",
+  "status": "completed",
+  "created_at_utc": "2026-10-08T04:40:22.765615+00:00",
+  "source_files_sha256": {
+    "configs/datasets/cse_cic_ids2018_features_compact.json": "469566d29d8f2eeee5c3e124835427de27a722517b8f25b01bff69a7db0ccdd5",
+    "configs/experiments/experiment_registry.json": "91803bb2b4333e1adfabcb85650fe94e72dc61fd0741379c9813ae7352055efb",
+    "outputs/metrics/metric_08b_fix_v2_operational_summary.json": "b137dbc95ec72358f08ec3ce32e8b270282d144c47759b1b2464e0ce6a5138f5",
+    "outputs/tables/table_08b_fix_06_family_results.csv": "492236a567686294862a51dce34a0dd6767eeea76265775b505cd431dab63d48",
+    "outputs/tables/table_08b_fix_05_training_summary.csv": "8d9017f1188230b709444c3835253bfd709691d52b03f97bd04acf1e6f110966",
+    "outputs/metrics/metric_08c_lightgbm_operational_summary.json": "d534f114473675d186cf2bd90b7744a00cd0a31af96db10a9663a8019b25f1da",
+    "outputs/tables/table_08c_04_lightgbm_family_results.csv": "91b1e92e5c8650013159e6aa26222d8c95f68278e79c2fcf85f61f152ba554a5",
+    "outputs/tables/table_08c_03_lightgbm_training_summary.csv": "dd4b4412092852e94d733cfdca7a2d895a07138c5a8dd517d695df3054aa82a7",
+    "outputs/metrics/metric_08d_catboost_operational_summary.json": "ca8a66ae7ace3e041e11eb55b17c63541bca8eaf324720ad258391d22bae6840",
+    "outputs/tables/table_08d_06_catboost_family_results.csv": "359eb61252f02610472d7bbae6aa4a10983d998f803a14de74539a422da8f277",
+    "outputs/tables/table_08d_05_catboost_training_summary.csv": "c6c919ed4fea7ad16d9636a17ab4dab2573dc507b5e45b6824b6a40ac49eee57"
+  },
+  "outputs_sha256": {
+    "outputs/tables/table_08e_01_tree_baseline_comparison.csv": "f91e1e384bf479a0b008040166673863f5755d81fc4d54f2cb5e1b9703ada93f",
+    "outputs/tables/table_08e_02_tree_family_comparison.csv": "03ec96f839f5c2a2d8b2b3b84e341c6f42321ecd228e7225dc2610edd54bf7f0",
+    "outputs/tables/table_08e_03_tree_descriptive_ranking.csv": "b9935cd1d1ce9a64686595c087d3de00eca316910de65dea1e9caa3c83e67dca",
+    "outputs/tables/table_08e_04_confusion_integrity_checks.csv": "140cb21acab650241459a0acb55f4e8b978967d8fac897d7bb18b9f25c446652",
+    "outputs/tables/table_08e_05_audit_findings.csv": "dd96c5dd3eec4981d97b860cd6360dd91d97c28a80532e0965feb2fb54457936",
+    "outputs/tables/table_08e_06_training_and_combined_inference.csv": "61c0a46322d1ca2fba878c94a10ae90fd3a2f1969dbad20e46fad9365f98a9d8",
+    "outputs/figures/figure_08e_01_temporal_metrics.png": "4b599eba8879a828f01601ad3ff7328894c33a476a1243aac544b951c08b9327",
+    "outputs/figures/figure_08e_01_temporal_metrics.pdf": "4674539cf45e6d84f510dcde355b8a4834829319be882d4cf1dc18e2196b9025",
+    "reports/captions/figure_08e_01_temporal_metrics.txt": "ec9c9ecdce2f8ebd67fcaacd74e93462039d06d47fade2889f9c394e32e5d1d3",
+    "outputs/figures/figure_08e_02_family_generalization.png": "0abc446ed87fd6c779cb094adf29c828d699ef5db3029c1c4ba455333bfadc20",
+    "outputs/figures/figure_08e_02_family_generalization.pdf": "ba8d44106c2940cc4cc2973a3b4ca86dccb3166d6179b60303f17708f4fe6dd7",
+    "reports/captions/figure_08e_02_family_generalization.txt": "a177563e2fd6983c229bb4a86d0782ac374b14878185ed03e997b6d71c08c7c5",
+    "outputs/figures/figure_08e_03_operational_tradeoff.png": "638f156aa3c493d1e521a01d12208efd1be7b41e86c8cf60990779825ece3ae7",
+    "outputs/figures/figure_08e_03_operational_tradeoff.pdf": "b952cdbbe6051dab4be1ee2de7f21d3124b2a661c4f8d2dd3e23a012fafd980a",
+    "reports/captions/figure_08e_03_operational_tradeoff.txt": "a696c69c9724c76ff35f6c22ca977e212c33a47e73a8d3c987e5d9ee4884554f",
+    "outputs/figures/figure_08e_04_training_cost.png": "70c50a3d07534102897771d5ab7e2e9e197c41c65201dbc1de52c5b45f50f9de",
+    "outputs/figures/figure_08e_04_training_cost.pdf": "89035c95f7c808858aec6bd6362b22d1855bbc6c1948b70d29d002af4d50f00a",
+    "reports/captions/figure_08e_04_training_cost.txt": "7f506d555fde45cc3eba16aa5443a44094c7dc9619112ba6cf11e8c540a1a080",
+    "reports/experiment_notes/block_08e_tree_baseline_comparison.md": "bd7e9dba421dde94d0c1362ef92a302088befb57d01cc0b56168588571c464cc",
+    "outputs/metrics/metric_08e_tree_baseline_summary.json": "a4ec3c64026c0f1733ab12b16f17dc266907f5ed7ece8ac9dc8716a04c9686a6"
+  },
+  "python_version": "3.12.13",
+  "platform": "Linux-6.18.48+-x86_64-with-glibc2.35",
+  "numpy": "2.0.2",
+  "pandas": "2.3.3",
+  "test_rows": 971833,
+  "warnings": [
+    {
+      "model": "XGBoost",
+      "severity": "requires_recalculation",
+      "finding": "Internal confusion counts differ from reconstructed exact-FPR audit",
+      "metric_false_positives": 4704,
+      "audit_false_positives": 4703,
+      "action": "Preserve original results; recompute exact threshold and scores from original float64 predictions before publication."
+    }
+  ],
+  "retrained": false
+}

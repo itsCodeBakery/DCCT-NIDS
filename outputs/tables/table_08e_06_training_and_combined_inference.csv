@@ -1,0 +1,4 @@
+model,backend,variant,best_iteration,training_seconds,combined_inference_seconds,inference_scope
+XGBoost,cuda_gpu,sqrt_weight,524,21.631874952,0.461634842,internal_holdout + official_validation + strict_temporal_test (combined)
+LightGBM,gpu_opencl,unweighted,445,284.994000567,31.593106637,internal_holdout + official_validation + strict_temporal_test (combined)
+CatBoost,native_gpu,full_weight,1419,73.994702538,2.660646849,internal_holdout + official_validation + strict_temporal_test (combined)

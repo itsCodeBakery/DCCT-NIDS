@@ -1,0 +1,20 @@
+{
+  "block": "08E",
+  "status": "completed",
+  "created_at_utc": "2026-10-08T04:40:22.763393+00:00",
+  "models": [
+    "XGBoost",
+    "LightGBM",
+    "CatBoost"
+  ],
+  "test_rows": 971833,
+  "best_mcc_model": "XGBoost",
+  "best_aupr_model": "LightGBM",
+  "descriptive_rank_order": [
+    "XGBoost",
+    "LightGBM",
+    "CatBoost"
+  ],
+  "warnings_count": 1,
+  "statistical_significance_claimed": false
+}

@@ -1,0 +1,1 @@
+Figure 8E.2. Per-family detection on the chronological test set for previously unseen Botnet and Infiltration attacks, shown alongside benign false-positive rate. The marked Infiltration recall deficit motivates open-set temporal generalization research.
