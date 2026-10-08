@@ -69,6 +69,8 @@ def main():
 
     source_paths = {
         "dedup_sql": ROOT / "scripts/block_04_exact_deduplication.sql",
+        "canonical_schema": ROOT / "configs/datasets/cse_cic_ids2018_canonical_schema.json",
+        "original_dedup_by_file": ROOT / "outputs/tables/table_04_01_exact_deduplication_by_file.csv",
         "provenance_sql": ROOT / "scripts/block_06_reconstruct_provenance.sql",
         "transform_sql": ROOT / "scripts/block_08a_compact_preprocessing.sql",
         "tax": ROOT / "configs/datasets/cse_cic_ids2018_attack_taxonomy.json",
@@ -87,6 +89,21 @@ def main():
     canonical = re.findall(r'"([^"]+)"', prefix)
     require(len(canonical) == 78 and len(set(canonical)) == 78, f"Expected 78 canonical columns; got {len(canonical)}")
     require(canonical[-1] == "Label", "Dedup source must end with Label")
+    canonical_schema = load_json(source_paths["canonical_schema"])
+    canonical_types = {item["column_name"]: item["canonical_type"]
+                       for item in canonical_schema["columns"]}
+    require(set(canonical_types) == set(canonical), "Canonical schema mismatch")
+    require(sum(typ == "int64" for typ in canonical_types.values()) == 40,
+            "Expected 40 canonical integer columns")
+    require(sum(typ in ("double", "float64") for typ in canonical_types.values()) == 37,
+            "Expected 37 canonical double columns")
+    require(canonical_types["Label"] == "string", "Expected string label schema")
+
+    expected_retained_by_file = {}
+    with open(source_paths["original_dedup_by_file"], newline="", encoding="utf-8") as stream:
+        for line in csv.DictReader(stream):
+            expected_retained_by_file[int(line["file_order"])] = int(line["retained_rows"])
+    require(len(expected_retained_by_file) == 10, "Incomplete original per-file retention audit")
 
     taxonomy = load_json(source_paths["tax"])["taxonomy"]
     require("Benign" in taxonomy and len(taxonomy) == 15, "Unexpected taxonomy")
@@ -165,12 +182,15 @@ def main():
                 actual_raw = int(pq.ParquetFile(meta["path"]).metadata.num_rows)
                 require(actual_raw == meta["expected_raw"],
                         f"Raw-row mismatch in {meta['source_file']}: {actual_raw} != {meta['expected_raw']}")
-                # All dataset numeric magnitudes were within the exactly representable
-                # integer range of float64 in the original CSE-CIC-IDS2018 audit.
-                # Canonical harmonization is explicit, so Arrow physical type
-                # differences cannot silently change the SQL schema.
+                # Match the frozen Block 02A/02B canonical schema precisely:
+                # int64 for integer-only columns, float64 for mixed and float
+                # columns, and dictionary-decoded VARCHAR for labels. The
+                # previous all-DOUBLE cast was NOT the original schema.
+                cast_for = {"int64": "BIGINT", "double": "DOUBLE",
+                            "float64": "DOUBLE", "string": "VARCHAR"}
                 expressions = [
-                    f"CAST({quote(column)} AS {'VARCHAR' if column == 'Label' else 'DOUBLE'}) AS {quote(column)}"
+                    f"CAST({quote(column)} AS {cast_for[canonical_types[column]]}) "
+                    f"AS {quote(column)}"
                     for column in canonical
                 ]
                 path_sql = sql_literal(meta["path"].as_posix())
@@ -196,7 +216,39 @@ def main():
             # its partition and retention order are executed without changes.
             db.execute(provenance_sql)
             retained = int(db.execute("SELECT COUNT(*) FROM retained_with_provenance").fetchone()[0])
-            require(retained == EXPECTED_DEDUP, f"Dedup count mismatch: {retained:,} != {EXPECTED_DEDUP:,}")
+            retained_by_file = {
+                int(order): int(count)
+                for order, count in db.execute(
+                    "SELECT file_order, COUNT(*) FROM retained_with_provenance "
+                    "GROUP BY file_order ORDER BY file_order"
+                ).fetchall()
+            }
+            diagnostics = [
+                {"file_order": order,
+                 "original_retained": expected_retained_by_file[order],
+                 "reconstructed_retained": retained_by_file.get(order, 0),
+                 "difference": retained_by_file.get(order, 0) - expected_retained_by_file[order]}
+                for order in range(1, 11)
+            ]
+            dedup_audit_path = TABLE / "table_09a_a_00_dedup_retention_diagnostics.csv"
+            with dedup_audit_path.open("w", newline="", encoding="utf-8") as stream:
+                writer = csv.DictWriter(stream, fieldnames=list(diagnostics[0]))
+                writer.writeheader()
+                writer.writerows(diagnostics)
+            if retained != EXPECTED_DEDUP or any(row["difference"] != 0 for row in diagnostics):
+                print("RECOVERY DEDUPLICATION DIAGNOSTICS:", flush=True)
+                for row in diagnostics:
+                    if row["difference"] != 0:
+                        print(f"  capture {row['file_order']:02d}: expected "
+                              f"{row['original_retained']:,}, observed "
+                              f"{row['reconstructed_retained']:,}, delta "
+                              f"{row['difference']:+,}", flush=True)
+                raise RuntimeError(
+                    f"Deduplication does not match Block 04: {retained:,} "
+                    f"versus {EXPECTED_DEDUP:,}. Diagnostic saved at "
+                    f"{dedup_audit_path}; do not proceed to ML training."
+                )
+            print("  ✓ All 10 per-file retained counts match authoritative Block 04", flush=True)
             db.execute("DROP TABLE raw_with_provenance")
             db.execute("CHECKPOINT")
             print(f"  Retained {retained:,}; removed {raw_count - retained:,} duplicates", flush=True)
@@ -386,7 +438,7 @@ def main():
         "as independent zero-day generalization evidence. Official test remains untouched.\n",
         encoding="utf-8",
     )
-    for path in [audit_csv, class_csv, manifest_path, summary_path, report_path]:
+    for path in [audit_csv, class_csv, manifest_path, summary_path, report_path, TABLE / "table_09a_a_00_dedup_retention_diagnostics.csv"]:
         require(path.is_file() and path.stat().st_size > 0, f"Missing output: {path}")
 
     print("\n" + "=" * 86)
