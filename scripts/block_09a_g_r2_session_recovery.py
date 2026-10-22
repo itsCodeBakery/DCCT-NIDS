@@ -273,7 +273,14 @@ def main():
     verify_pinned_scripts()
     statuses=inventory()
     guard_recovery(statuses)
-    check_raw_input()
+    if statuses["09A-A-R2"]!="COMPLETE":
+        check_raw_input()
+    if any(statuses[block]!="COMPLETE" for block in ("09A-B-R2","09A-E-R2")):
+        import torch
+        check(torch.cuda.is_available(),
+              "Missing neural/tree checkpoints require GPU retraining. "
+              "Enable Kaggle GPU before beginning data reconstruction.")
+        print("✓ CUDA GPU available:",torch.cuda.get_device_name(0),flush=True)
     stage_actions=[]
     for block,sha,relative in tqdm(PINNED_SOURCES,
                                    desc="Recovery stage progress",
